@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#1a1a2e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="英语小灶 - 专为农村初中生设计的免费英语学习伴侣">
+    <title>英语小灶 EnglishBuddy</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Splash Screen -->
+        <div id="screen-splash" class="screen active">
+            <div class="splash-content">
+                <div class="splash-logo">📖</div>
+                <h1 class="splash-title">英语小灶</h1>
+                <p class="splash-subtitle">EnglishBuddy</p>
+                <p class="splash-tagline">暑假复习版 · 每天15分钟，弯道超车 🌻</p>
+                <div class="splash-loader">
+                    <div class="loader-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Welcome / Onboarding Screen -->
+        <div id="screen-welcome" class="screen">
+            <div class="welcome-container">
+                <div class="welcome-slides" id="welcomeSlides">
+                    <!-- Slide 1 -->
+                    <div class="welcome-slide active" data-slide="0">
+                        <div class="slide-emoji">🌻</div>
+                        <h2>暑假弯道超车！</h2>
+                        <p>趁暑假把英语补回来<br>开学惊艳全班 ✨</p>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="welcome-slide" data-slide="1">
+                        <div class="slide-emoji">🍉</div>
+                        <h2>每天只要15分钟</h2>
+                        <p>背单词 + 小测验 + 复习<br>吃完西瓜就能学完 🎵</p>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="welcome-slide" data-slide="2">
+                        <div class="slide-emoji">💪</div>
+                        <h2>你的进步看得见</h2>
+                        <p>不会的慢慢教，学过的不会忘<br>收集星星，解锁成就 ⭐</p>
+                    </div>
+                </div>
+                <div class="welcome-dots">
+                    <span class="dot active" data-dot="0"></span>
+                    <span class="dot" data-dot="1"></span>
+                    <span class="dot" data-dot="2"></span>
+                </div>
+                <button id="btnStartSetup" class="btn btn-primary btn-lg">开始使用 →</button>
+            </div>
+        </div>
+
+        <!-- Setup Screen (Name + Grade) -->
+        <div id="screen-setup" class="screen">
+            <div class="setup-container">
+                <div class="setup-header">
+                    <div class="setup-emoji">👋</div>
+                    <h2>你好！</h2>
+                    <p>先告诉我一些基本信息吧</p>
+                </div>
+                <div class="setup-form">
+                    <div class="form-group">
+                        <label for="inputName">你的名字（昵称也行）</label>
+                        <input type="text" id="inputName" placeholder="比如：小花" maxlength="10" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label>你现在读几年级？</label>
+                        <div class="grade-options">
+                            <button class="grade-btn" data-grade="7">初一<br><span>七年级</span></button>
+                            <button class="grade-btn selected" data-grade="8">初二<br><span>八年级</span></button>
+                            <button class="grade-btn" data-grade="9">初三<br><span>九年级</span></button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>用的是哪个版本的课本？</label>
+                        <div class="textbook-options">
+                            <button class="textbook-btn selected" data-textbook="pep">人教版 (PEP)</button>
+                            <button class="textbook-btn" data-textbook="fltrp" disabled>外研版 (即将支持)</button>
+                        </div>
+                    </div>
+                    <button id="btnStartAssessment" class="btn btn-primary btn-lg" disabled>下一步：测一测你的水平 →</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Assessment Screen -->
+        <div id="screen-assessment" class="screen">
+            <div class="assessment-container">
+                <div class="assessment-header">
+                    <div class="assessment-progress">
+                        <div class="progress-text">
+                            <span id="assessQuestionNum">1</span> / <span id="assessTotalNum">10</span>
+                        </div>
+                        <div class="progress-bar-wrapper">
+                            <div class="progress-bar" id="assessProgressBar" style="width: 10%"></div>
+                        </div>
+                    </div>
+                    <p class="assessment-hint">放轻松，不会的就选"不确定"，没关系的 😊</p>
+                </div>
+                <div class="assessment-body" id="assessBody">
+                    <!-- Dynamically filled -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Assessment Result Screen -->
+        <div id="screen-assess-result" class="screen">
+            <div class="result-container">
+                <div class="result-header">
+                    <div class="result-emoji" id="resultEmoji">🎉</div>
+                    <h2 id="resultTitle">测试完成！</h2>
+                    <p id="resultSubtitle">我已经了解你的水平了</p>
+                </div>
+                <div class="result-card" id="resultCard">
+                    <!-- Dynamically filled -->
+                </div>
+                <button id="btnStartLearning" class="btn btn-primary btn-lg">
+                    开始我的学习之旅 🚀
+                </button>
+            </div>
+        </div>
+
+        <!-- Main App (with bottom nav) -->
+        <div id="screen-main" class="screen">
+            <!-- Top Bar -->
+            <div class="top-bar">
+                <div class="top-bar-left">
+                    <span class="greeting" id="greetingText">你好</span>
+                </div>
+                <div class="top-bar-right">
+                    <span class="streak-badge" id="streakBadge">🔥 0天</span>
+                    <span class="star-badge" id="starBadge">⭐ 0</span>
+                </div>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+                <!-- Tab: Home / Daily Mission -->
+                <div id="tab-home" class="tab-pane active">
+                    <div class="daily-mission-card" id="dailyMissionCard">
+                        <!-- Dynamically filled -->
+                    </div>
+                    <div class="home-quick-actions">
+                        <h3>快速开始</h3>
+                        <div class="quick-grid">
+                            <button class="quick-btn" id="quickVocab">
+                                <span class="quick-icon">🔤</span>
+                                <span class="quick-label">背单词</span>
+                            </button>
+                            <button class="quick-btn" id="quickListening">
+                                <span class="quick-icon">🎧</span>
+                                <span class="quick-label">练听力</span>
+                            </button>
+                            <button class="quick-btn" id="quickQuiz">
+                                <span class="quick-icon">📝</span>
+                                <span class="quick-label">小测验</span>
+                            </button>
+                            <button class="quick-btn" id="quickReview">
+                                <span class="quick-icon">🔄</span>
+                                <span class="quick-label">复习</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="home-units" id="homeUnits">
+                        <h3>学习单元</h3>
+                        <div class="unit-list" id="unitList">
+                            <!-- Dynamically filled -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab: Vocab Study -->
+                <div id="tab-vocab" class="tab-pane">
+                    <div class="vocab-header" id="vocabHeader">
+                        <h2>背单词</h2>
+                        <p id="vocabProgress">今日进度 0/8</p>
+                    </div>
+                    <div class="vocab-card-container" id="vocabCardContainer">
+                        <!-- Flashcard dynamically rendered -->
+                    </div>
+                    <div class="vocab-controls" id="vocabControls">
+                        <!-- Buttons dynamically rendered -->
+                    </div>
+                </div>
+
+                <!-- Tab: Quiz -->
+                <div id="tab-quiz" class="tab-pane">
+                    <div class="quiz-container" id="quizContainer">
+                        <!-- Quiz dynamically rendered -->
+                    </div>
+                </div>
+
+                <!-- Tab: Profile / Stats -->
+                <div id="tab-profile" class="tab-pane">
+                    <div class="profile-header" id="profileHeader">
+                        <div class="profile-avatar">📖</div>
+                        <h2 id="profileName">小花</h2>
+                        <p class="profile-level" id="profileLevel">初二 · 人教版</p>
+                    </div>
+                    <div class="stats-grid" id="statsGrid">
+                        <div class="stat-card">
+                            <div class="stat-value" id="statWords">0</div>
+                            <div class="stat-label">已学单词</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="statStreak">0</div>
+                            <div class="stat-label">连续天数</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="statStars">0</div>
+                            <div class="stat-label">获得星星</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="statQuizzes">0</div>
+                            <div class="stat-label">完成测验</div>
+                        </div>
+                    </div>
+                    <div class="calendar-section" id="calendarSection">
+                        <h3>📅 学习日历</h3>
+                        <div class="calendar-grid" id="calendarGrid">
+                            <!-- Dynamically filled -->
+                        </div>
+                    </div>
+                    <div class="skills-section">
+                        <h3>💪 能力分析</h3>
+                        <div class="skill-bars" id="skillBars">
+                            <div class="skill-row">
+                                <span class="skill-name">词汇</span>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" id="skillVocab" style="width: 0%"></div></div>
+                                <span class="skill-pct" id="skillVocabPct">0%</span>
+                            </div>
+                            <div class="skill-row">
+                                <span class="skill-name">听力</span>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" id="skillListening" style="width: 0%"></div></div>
+                                <span class="skill-pct" id="skillListeningPct">0%</span>
+                            </div>
+                            <div class="skill-row">
+                                <span class="skill-name">语法</span>
+                                <div class="skill-bar-bg"><div class="skill-bar-fill" id="skillGrammar" style="width: 0%"></div></div>
+                                <span class="skill-pct" id="skillGrammarPct">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="achievements-section">
+                        <h3>🏅 成就徽章</h3>
+                        <div class="badge-grid" id="badgeGrid">
+                            <!-- Dynamically filled -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Navigation -->
+            <nav class="bottom-nav">
+                <button class="nav-btn active" data-tab="home">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-label">首页</span>
+                </button>
+                <button class="nav-btn" data-tab="vocab">
+                    <span class="nav-icon">🔤</span>
+                    <span class="nav-label">单词</span>
+                </button>
+                <button class="nav-btn" data-tab="quiz">
+                    <span class="nav-icon">📝</span>
+                    <span class="nav-label">测验</span>
+                </button>
+                <button class="nav-btn" data-tab="profile">
+                    <span class="nav-icon">👤</span>
+                    <span class="nav-label">我的</span>
+                </button>
+            </nav>
+        </div>
+
+        <!-- Vocabulary Learning Full Screen -->
+        <div id="screen-vocab-learn" class="screen">
+            <div class="learn-header">
+                <button class="btn-back" id="vocabLearnBack">← 返回</button>
+                <div class="learn-progress">
+                    <span id="learnProgressText">1/8</span>
+                    <div class="progress-bar-wrapper small">
+                        <div class="progress-bar" id="learnProgressBar" style="width: 12.5%"></div>
+                    </div>
+                </div>
+                <div class="learn-unit-name" id="learnUnitName">Unit 1</div>
+            </div>
+            <div class="learn-body">
+                <div class="flashcard" id="flashcard">
+                    <div class="flashcard-inner" id="flashcardInner">
+                        <div class="flashcard-front">
+                            <div class="word-english" id="wordEnglish">vacation</div>
+                            <div class="word-phonetic" id="wordPhonetic">/vəˈkeɪʃn/</div>
+                            <button class="btn-audio" id="btnPlayWord" title="播放发音">🔊</button>
+                            <p class="flip-hint">👆 点击卡片翻转看答案</p>
+                        </div>
+                        <div class="flashcard-back">
+                            <div class="word-chinese" id="wordChinese">假期</div>
+                            <div class="word-pos" id="wordPos">n. 名词</div>
+                            <div class="word-example">
+                                <p class="example-en" id="exampleEn">"Where did you go on vacation?"</p>
+                                <p class="example-cn" id="exampleCn">"你假期去了哪里？"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="learn-actions">
+                    <button class="learn-btn btn-forgot" id="btnForgot">
+                        <span>❌</span>
+                        <span>不认识</span>
+                    </button>
+                    <button class="learn-btn btn-fuzzy" id="btnFuzzy">
+                        <span>🤔</span>
+                        <span>有点模糊</span>
+                    </button>
+                    <button class="learn-btn btn-known" id="btnKnown">
+                        <span>✅</span>
+                        <span>认识</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Full Screen -->
+        <div id="screen-quiz-session" class="screen">
+            <div class="quiz-session-header">
+                <button class="btn-back" id="quizSessionBack">← 退出</button>
+                <div class="quiz-session-progress">
+                    <span id="quizSessionProgressText">1/10</span>
+                    <div class="progress-bar-wrapper small">
+                        <div class="progress-bar" id="quizSessionProgressBar" style="width: 10%"></div>
+                    </div>
+                </div>
+                <div class="quiz-session-score">
+                    <span id="quizSessionScore">⭐ 0</span>
+                </div>
+            </div>
+            <div class="quiz-session-body" id="quizSessionBody">
+                <!-- Dynamically filled -->
+            </div>
+        </div>
+
+        <!-- Quiz Result Screen -->
+        <div id="screen-quiz-result" class="screen">
+            <div class="quiz-result-container">
+                <div class="quiz-result-emoji" id="quizResultEmoji">🎉</div>
+                <h2 id="quizResultTitle">测验完成！</h2>
+                <div class="quiz-result-score">
+                    <div class="score-circle" id="scoreCircle">
+                        <span class="score-number" id="scoreNumber">8</span>
+                        <span class="score-total">/ 10</span>
+                    </div>
+                </div>
+                <div class="quiz-result-detail" id="quizResultDetail">
+                    <!-- Stars earned, words to review, etc -->
+                </div>
+                <div class="quiz-result-actions">
+                    <button class="btn btn-secondary" id="btnReviewMistakes">📖 复习错题</button>
+                    <button class="btn btn-primary" id="btnBackHome">🏠 返回首页</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toast / Notification -->
+        <div id="toast" class="toast hidden">
+            <span id="toastText"></span>
+        </div>
+
+        <!-- Celebration overlay -->
+        <div id="celebration" class="celebration hidden">
+            <div class="confetti-container" id="confettiContainer"></div>
+            <div class="celebration-content">
+                <div class="celebration-emoji" id="celebrationEmoji">🎉</div>
+                <h2 id="celebrationTitle">太棒了！</h2>
+                <p id="celebrationText">你获得了 5 颗星星</p>
+                <button class="btn btn-primary" id="celebrationBtn">继续</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
