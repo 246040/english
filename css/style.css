@@ -1770,7 +1770,7 @@ body {
     display: flex;
     gap: var(--space-sm);
     overflow-x: auto;
-    padding-bottom: var(--space-md);
+    padding: var(--space-sm) 0 var(--space-md);
     -webkit-overflow-scrolling: touch;
 }
 
@@ -1778,7 +1778,7 @@ body {
     display: none;
 }
 
-.unit-selector-btn {
+.unit-chip {
     flex-shrink: 0;
     padding: 8px 16px;
     background: var(--bg-card);
@@ -1790,16 +1790,47 @@ body {
     cursor: pointer;
     transition: all 0.2s;
     white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
 }
 
-.unit-selector-btn.active {
-    background: rgba(108, 99, 255, 0.15);
+.unit-chip.active {
+    background: rgba(168, 85, 247, 0.15);
     border-color: var(--primary);
     color: var(--primary-light);
 }
 
+.unit-chip-pct {
+    font-size: 10px;
+    opacity: 0.7;
+}
+
+/* Review banner */
+.review-banner {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: var(--space-sm) 0;
+    background: rgba(251, 191, 36, 0.1);
+    border: 1px solid var(--accent-orange);
+    border-radius: var(--radius-md);
+    color: var(--accent-orange-light);
+    font-family: var(--font-family);
+    font-size: var(--font-md);
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.review-banner:active {
+    transform: scale(0.98);
+}
+
 /* Word list in vocab tab */
-.word-list-container {
+.word-list {
     padding-bottom: var(--space-xl);
 }
 
@@ -1817,20 +1848,44 @@ body {
     background: var(--bg-card);
 }
 
-.word-list-en {
+.word-status {
+    font-size: 16px;
+    width: 24px;
+    text-align: center;
+}
+
+.word-english {
     font-weight: 600;
     font-size: var(--font-md);
     min-width: 100px;
 }
 
-.word-list-cn {
+.word-chinese {
     flex: 1;
     font-size: var(--font-sm);
     color: var(--text-secondary);
+    text-align: right;
 }
 
-.word-list-status {
-    font-size: 16px;
+/* Start unit button */
+.btn-start-unit {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin: var(--space-md) 0;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    border: none;
+    border-radius: var(--radius-md);
+    color: white;
+    font-family: var(--font-family);
+    font-size: var(--font-md);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-start-unit:active {
+    transform: scale(0.97);
 }
 
 /* Quiz tab (in main) */
