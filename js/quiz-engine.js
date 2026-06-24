@@ -240,6 +240,12 @@ export class QuizEngine {
                 selectedIndex,
                 correctIndex: q.correctIndex,
             });
+            // Dispatch for MistakeBook auto-collection
+            if (q.word) {
+                document.dispatchEvent(new CustomEvent('quiz-mistake', {
+                    detail: { word: q.word }
+                }));
+            }
         }
 
         // Update live score

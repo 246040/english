@@ -1,5 +1,5 @@
 // vocab-data.js
-// PEP (人教版) Grade 8 Upper Vocabulary Data
+// PEP (人教�? Grade 8 Upper Vocabulary Data
 // For EnglishBuddy - English Learning App
 
 export const vocabData = {
@@ -15,7 +15,7 @@ export const vocabData = {
       phonetic: '/həˈloʊ/',
       partOfSpeech: 'interj.',
       exampleEn: 'Hello! My name is Li Ming.',
-      exampleCn: '你好！我叫李明。',
+      exampleCn: '你好！我叫李明�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -39,7 +39,7 @@ export const vocabData = {
       phonetic: '/ˈstjuːdnt/',
       partOfSpeech: 'n.',
       exampleEn: 'I am a student.',
-      exampleCn: '我是一个学生。',
+      exampleCn: '我是一个学生�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -51,7 +51,7 @@ export const vocabData = {
       phonetic: '/skuːl/',
       partOfSpeech: 'n.',
       exampleEn: 'I go to school every day.',
-      exampleCn: '我每天去上学。',
+      exampleCn: '我每天去上学�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -63,7 +63,7 @@ export const vocabData = {
       phonetic: '/ˈtiːtʃər/',
       partOfSpeech: 'n.',
       exampleEn: 'She is our English teacher.',
-      exampleCn: '她是我们的英语老师。',
+      exampleCn: '她是我们的英语老师�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -71,11 +71,11 @@ export const vocabData = {
     {
       id: 'rem_book',
       english: 'book',
-      chinese: '书',
+      chinese: '�?,
       phonetic: '/bʊk/',
       partOfSpeech: 'n.',
       exampleEn: 'This is my English book.',
-      exampleCn: '这是我的英语书。',
+      exampleCn: '这是我的英语书�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -99,7 +99,7 @@ export const vocabData = {
       phonetic: '/ˈæpl/',
       partOfSpeech: 'n.',
       exampleEn: 'I like to eat apples.',
-      exampleCn: '我喜欢吃苹果。',
+      exampleCn: '我喜欢吃苹果�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -107,11 +107,11 @@ export const vocabData = {
     {
       id: 'rem_water',
       english: 'water',
-      chinese: '水',
+      chinese: '�?,
       phonetic: '/ˈwɔːtər/',
       partOfSpeech: 'n.',
       exampleEn: 'Can I have some water?',
-      exampleCn: '我能喝点水吗？',
+      exampleCn: '我能喝点水吗�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -123,7 +123,7 @@ export const vocabData = {
       phonetic: '/ˈfæməli/',
       partOfSpeech: 'n.',
       exampleEn: 'I have a big family.',
-      exampleCn: '我有一个大家庭。',
+      exampleCn: '我有一个大家庭�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -135,7 +135,7 @@ export const vocabData = {
       phonetic: '/ˈmʌðər/',
       partOfSpeech: 'n.',
       exampleEn: 'My mother is a teacher.',
-      exampleCn: '我妈妈是一位老师。',
+      exampleCn: '我妈妈是一位老师�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -147,7 +147,7 @@ export const vocabData = {
       phonetic: '/ˈfɑːðər/',
       partOfSpeech: 'n.',
       exampleEn: 'My father works on a farm.',
-      exampleCn: '我爸爸在农场工作。',
+      exampleCn: '我爸爸在农场工作�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -159,7 +159,7 @@ export const vocabData = {
       phonetic: '/frend/',
       partOfSpeech: 'n.',
       exampleEn: 'He is my best friend.',
-      exampleCn: '他是我最好的朋友。',
+      exampleCn: '他是我最好的朋友�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -171,7 +171,7 @@ export const vocabData = {
       phonetic: '/ɡʊd/',
       partOfSpeech: 'adj.',
       exampleEn: 'She is a good student.',
-      exampleCn: '她是一个好学生。',
+      exampleCn: '她是一个好学生�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -179,11 +179,11 @@ export const vocabData = {
     {
       id: 'rem_bad',
       english: 'bad',
-      chinese: '坏的；差的',
+      chinese: '坏的；差�?,
       phonetic: '/bæd/',
       partOfSpeech: 'adj.',
       exampleEn: 'The weather is bad today.',
-      exampleCn: '今天天气很差。',
+      exampleCn: '今天天气很差�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -195,7 +195,7 @@ export const vocabData = {
       phonetic: '/bɪɡ/',
       partOfSpeech: 'adj.',
       exampleEn: 'Our school is very big.',
-      exampleCn: '我们学校很大。',
+      exampleCn: '我们学校很大�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -207,7 +207,7 @@ export const vocabData = {
       phonetic: '/smɔːl/',
       partOfSpeech: 'adj.',
       exampleEn: 'The village is small but beautiful.',
-      exampleCn: '这个村庄很小但很美。',
+      exampleCn: '这个村庄很小但很美�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -215,11 +215,11 @@ export const vocabData = {
     {
       id: 'rem_go',
       english: 'go',
-      chinese: '去',
+      chinese: '�?,
       phonetic: '/ɡoʊ/',
       partOfSpeech: 'v.',
       exampleEn: "Let's go to school.",
-      exampleCn: '我们去上学吧。',
+      exampleCn: '我们去上学吧�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -227,11 +227,11 @@ export const vocabData = {
     {
       id: 'rem_come',
       english: 'come',
-      chinese: '来',
+      chinese: '�?,
       phonetic: '/kʌm/',
       partOfSpeech: 'v.',
       exampleEn: 'Come here, please.',
-      exampleCn: '请过来。',
+      exampleCn: '请过来�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -239,11 +239,11 @@ export const vocabData = {
     {
       id: 'rem_eat',
       english: 'eat',
-      chinese: '吃',
+      chinese: '�?,
       phonetic: '/iːt/',
       partOfSpeech: 'v.',
       exampleEn: 'I eat breakfast at seven.',
-      exampleCn: '我七点吃早饭。',
+      exampleCn: '我七点吃早饭�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -251,11 +251,11 @@ export const vocabData = {
     {
       id: 'rem_drink',
       english: 'drink',
-      chinese: '喝',
+      chinese: '�?,
       phonetic: '/drɪŋk/',
       partOfSpeech: 'v.',
       exampleEn: 'I drink milk every morning.',
-      exampleCn: '我每天早上喝牛奶。',
+      exampleCn: '我每天早上喝牛奶�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -267,7 +267,7 @@ export const vocabData = {
       phonetic: '/laɪk/',
       partOfSpeech: 'v.',
       exampleEn: 'I like English very much.',
-      exampleCn: '我非常喜欢英语。',
+      exampleCn: '我非常喜欢英语�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -275,11 +275,11 @@ export const vocabData = {
     {
       id: 'rem_have',
       english: 'have',
-      chinese: '有；吃',
+      chinese: '有；�?,
       phonetic: '/hæv/',
       partOfSpeech: 'v.',
       exampleEn: 'I have two brothers.',
-      exampleCn: '我有两个兄弟。',
+      exampleCn: '我有两个兄弟�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -291,7 +291,7 @@ export const vocabData = {
       phonetic: '/wɑːnt/',
       partOfSpeech: 'v.',
       exampleEn: 'I want to learn English.',
-      exampleCn: '我想学英语。',
+      exampleCn: '我想学英语�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -299,11 +299,11 @@ export const vocabData = {
     {
       id: 'rem_can',
       english: 'can',
-      chinese: '能；会',
+      chinese: '能；�?,
       phonetic: '/kæn/',
       partOfSpeech: 'modal v.',
       exampleEn: 'I can speak English.',
-      exampleCn: '我会说英语。',
+      exampleCn: '我会说英语�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -311,7 +311,7 @@ export const vocabData = {
     {
       id: 'rem_do',
       english: 'do',
-      chinese: '做',
+      chinese: '�?,
       phonetic: '/duː/',
       partOfSpeech: 'v.',
       exampleEn: 'What do you do every day?',
@@ -323,11 +323,11 @@ export const vocabData = {
     {
       id: 'rem_make',
       english: 'make',
-      chinese: '制作；使得',
+      chinese: '制作；使�?,
       phonetic: '/meɪk/',
       partOfSpeech: 'v.',
       exampleEn: 'I can make a kite.',
-      exampleCn: '我会做风筝。',
+      exampleCn: '我会做风筝�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -339,7 +339,7 @@ export const vocabData = {
       phonetic: '/siː/',
       partOfSpeech: 'v.',
       exampleEn: 'I can see a bird in the tree.',
-      exampleCn: '我能看到树上有一只鸟。',
+      exampleCn: '我能看到树上有一只鸟�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -347,11 +347,11 @@ export const vocabData = {
     {
       id: 'rem_know',
       english: 'know',
-      chinese: '知道；认识',
+      chinese: '知道；认�?,
       phonetic: '/noʊ/',
       partOfSpeech: 'v.',
       exampleEn: 'I know the answer.',
-      exampleCn: '我知道答案。',
+      exampleCn: '我知道答案�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -363,7 +363,7 @@ export const vocabData = {
       phonetic: '/θɪŋk/',
       partOfSpeech: 'v.',
       exampleEn: 'I think English is interesting.',
-      exampleCn: '我觉得英语很有趣。',
+      exampleCn: '我觉得英语很有趣�?,
       unit: 'remedial',
       unitName: '基础补救',
       difficulty: 1
@@ -372,8 +372,7 @@ export const vocabData = {
 
   // ============================================================
   // Unit 1: Where did you go on vacation?
-  // 话题：谈论假期活动（一般过去时）
-  // ============================================================
+  // 话题：谈论假期活动（一般过去时�?  // ============================================================
   unit1: [
     {
       id: 'u1_vacation',
@@ -402,11 +401,11 @@ export const vocabData = {
     {
       id: 'u1_wonderful',
       english: 'wonderful',
-      chinese: '精彩的；极好的',
+      chinese: '精彩的；极好�?,
       phonetic: '/ˈwʌndərfl/',
       partOfSpeech: 'adj.',
       exampleEn: 'We had a wonderful time.',
-      exampleCn: '我们玩得很开心。',
+      exampleCn: '我们玩得很开心�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -414,11 +413,11 @@ export const vocabData = {
     {
       id: 'u1_somewhere',
       english: 'somewhere',
-      chinese: '在某处',
+      chinese: '在某�?,
       phonetic: '/ˈsʌmweər/',
       partOfSpeech: 'adv.',
       exampleEn: 'I want to go somewhere warm.',
-      exampleCn: '我想去一个暖和的地方。',
+      exampleCn: '我想去一个暖和的地方�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -426,11 +425,11 @@ export const vocabData = {
     {
       id: 'u1_nothing',
       english: 'nothing',
-      chinese: '没有什么',
+      chinese: '没有什�?,
       phonetic: '/ˈnʌθɪŋ/',
       partOfSpeech: 'pron.',
       exampleEn: 'Nothing much happened that day.',
-      exampleCn: '那天没发生什么事。',
+      exampleCn: '那天没发生什么事�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -438,11 +437,11 @@ export const vocabData = {
     {
       id: 'u1_everyone',
       english: 'everyone',
-      chinese: '每人；人人',
+      chinese: '每人；人�?,
       phonetic: '/ˈevriwʌn/',
       partOfSpeech: 'pron.',
       exampleEn: 'Everyone had a great time.',
-      exampleCn: '每个人都玩得很开心。',
+      exampleCn: '每个人都玩得很开心�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -450,11 +449,11 @@ export const vocabData = {
     {
       id: 'u1_myself',
       english: 'myself',
-      chinese: '我自己',
+      chinese: '我自�?,
       phonetic: '/maɪˈself/',
       partOfSpeech: 'pron.',
       exampleEn: 'I enjoyed myself during the vacation.',
-      exampleCn: '假期里我玩得很开心。',
+      exampleCn: '假期里我玩得很开心�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -462,11 +461,11 @@ export const vocabData = {
     {
       id: 'u1_yourself',
       english: 'yourself',
-      chinese: '你自己',
+      chinese: '你自�?,
       phonetic: '/jɔːrˈself/',
       partOfSpeech: 'pron.',
       exampleEn: 'Did you enjoy yourself?',
-      exampleCn: '你玩得开心吗？',
+      exampleCn: '你玩得开心吗�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -474,11 +473,11 @@ export const vocabData = {
     {
       id: 'u1_something',
       english: 'something',
-      chinese: '某事；某物',
+      chinese: '某事；某�?,
       phonetic: '/ˈsʌmθɪŋ/',
       partOfSpeech: 'pron.',
       exampleEn: 'Did you do something special last weekend?',
-      exampleCn: '上周末你做了什么特别的事吗？',
+      exampleCn: '上周末你做了什么特别的事吗�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -486,11 +485,11 @@ export const vocabData = {
     {
       id: 'u1_everything',
       english: 'everything',
-      chinese: '一切事物',
+      chinese: '一切事�?,
       phonetic: '/ˈevriθɪŋ/',
       partOfSpeech: 'pron.',
       exampleEn: 'Everything was excellent.',
-      exampleCn: '一切都很棒。',
+      exampleCn: '一切都很棒�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -498,11 +497,11 @@ export const vocabData = {
     {
       id: 'u1_boring',
       english: 'boring',
-      chinese: '无聊的',
+      chinese: '无聊�?,
       phonetic: '/ˈbɔːrɪŋ/',
       partOfSpeech: 'adj.',
       exampleEn: 'The movie was so boring.',
-      exampleCn: '这部电影太无聊了。',
+      exampleCn: '这部电影太无聊了�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -514,7 +513,7 @@ export const vocabData = {
       phonetic: '/ˈsʌmwʌn/',
       partOfSpeech: 'pron.',
       exampleEn: 'Someone took a photo of us.',
-      exampleCn: '有人给我们拍了照。',
+      exampleCn: '有人给我们拍了照�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -526,7 +525,7 @@ export const vocabData = {
       phonetic: '/ˈdaɪəri/',
       partOfSpeech: 'n.',
       exampleEn: 'I wrote a diary every day during the vacation.',
-      exampleCn: '假期里我每天都写日记。',
+      exampleCn: '假期里我每天都写日记�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -538,7 +537,7 @@ export const vocabData = {
       phonetic: '/ækˈtɪvəti/',
       partOfSpeech: 'n.',
       exampleEn: 'There were many fun activities.',
-      exampleCn: '有很多有趣的活动。',
+      exampleCn: '有很多有趣的活动�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -550,7 +549,7 @@ export const vocabData = {
       phonetic: '/dɪˈsaɪd/',
       partOfSpeech: 'v.',
       exampleEn: 'We decided to go to the beach.',
-      exampleCn: '我们决定去海滩。',
+      exampleCn: '我们决定去海滩�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -562,7 +561,7 @@ export const vocabData = {
       phonetic: '/traɪ/',
       partOfSpeech: 'v.',
       exampleEn: 'I tried paragliding and it was exciting.',
-      exampleCn: '我试了滑翔伞，很刺激。',
+      exampleCn: '我试了滑翔伞，很刺激�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -570,11 +569,11 @@ export const vocabData = {
     {
       id: 'u1_paragliding',
       english: 'paragliding',
-      chinese: '滑翔伞运动',
+      chinese: '滑翔伞运�?,
       phonetic: '/ˈpærəɡlaɪdɪŋ/',
       partOfSpeech: 'n.',
       exampleEn: 'I felt like I was a bird when I tried paragliding.',
-      exampleCn: '我尝试滑翔伞的时候感觉自己像一只鸟。',
+      exampleCn: '我尝试滑翔伞的时候感觉自己像一只鸟�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 3
@@ -582,11 +581,11 @@ export const vocabData = {
     {
       id: 'u1_feel',
       english: 'feel',
-      chinese: '感受；觉得',
+      chinese: '感受；觉�?,
       phonetic: '/fiːl/',
       partOfSpeech: 'v.',
       exampleEn: 'I felt like I was a bird.',
-      exampleCn: '我感觉自己像一只鸟。',
+      exampleCn: '我感觉自己像一只鸟�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -594,11 +593,11 @@ export const vocabData = {
     {
       id: 'u1_bird',
       english: 'bird',
-      chinese: '鸟',
+      chinese: '�?,
       phonetic: '/bɜːrd/',
       partOfSpeech: 'n.',
       exampleEn: 'I saw many birds on the hill.',
-      exampleCn: '我在山上看到了很多鸟。',
+      exampleCn: '我在山上看到了很多鸟�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 1
@@ -606,11 +605,11 @@ export const vocabData = {
     {
       id: 'u1_bicycle',
       english: 'bicycle',
-      chinese: '自行车',
+      chinese: '自行�?,
       phonetic: '/ˈbaɪsɪkl/',
       partOfSpeech: 'n.',
       exampleEn: 'We rode bicycles around the town.',
-      exampleCn: '我们骑自行车在镇上转了转。',
+      exampleCn: '我们骑自行车在镇上转了转�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -618,11 +617,11 @@ export const vocabData = {
     {
       id: 'u1_building',
       english: 'building',
-      chinese: '建筑物',
+      chinese: '建筑�?,
       phonetic: '/ˈbɪldɪŋ/',
       partOfSpeech: 'n.',
       exampleEn: 'There are many old buildings in the city.',
-      exampleCn: '这个城市有很多古老的建筑。',
+      exampleCn: '这个城市有很多古老的建筑�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -634,7 +633,7 @@ export const vocabData = {
       phonetic: '/ˈtreɪdər/',
       partOfSpeech: 'n.',
       exampleEn: 'We met some traders in the market.',
-      exampleCn: '我们在市场上遇到了一些商人。',
+      exampleCn: '我们在市场上遇到了一些商人�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 3
@@ -646,7 +645,7 @@ export const vocabData = {
       phonetic: '/ˈwʌndər/',
       partOfSpeech: 'v.',
       exampleEn: 'I wonder what life was like here in the past.',
-      exampleCn: '我想知道过去这里的生活是什么样的。',
+      exampleCn: '我想知道过去这里的生活是什么样的�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 3
@@ -654,7 +653,7 @@ export const vocabData = {
     {
       id: 'u1_difference',
       english: 'difference',
-      chinese: '差异；不同',
+      chinese: '差异；不�?,
       phonetic: '/ˈdɪfrəns/',
       partOfSpeech: 'n.',
       exampleEn: 'What a difference a day makes!',
@@ -670,7 +669,7 @@ export const vocabData = {
       phonetic: '/tɑːp/',
       partOfSpeech: 'n.',
       exampleEn: 'We walked to the top of the hill.',
-      exampleCn: '我们走到了山顶。',
+      exampleCn: '我们走到了山顶�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -682,7 +681,7 @@ export const vocabData = {
       phonetic: '/weɪt/',
       partOfSpeech: 'v.',
       exampleEn: 'We waited over an hour for the train.',
-      exampleCn: '我们等了一个多小时的火车。',
+      exampleCn: '我们等了一个多小时的火车�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -694,7 +693,7 @@ export const vocabData = {
       phonetic: '/ʌmˈbrelə/',
       partOfSpeech: 'n.',
       exampleEn: 'I forgot to bring an umbrella.',
-      exampleCn: '我忘了带雨伞。',
+      exampleCn: '我忘了带雨伞�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -706,7 +705,7 @@ export const vocabData = {
       phonetic: '/wet/',
       partOfSpeech: 'adj.',
       exampleEn: 'My clothes were all wet because of the rain.',
-      exampleCn: '因为下雨，我的衣服全湿了。',
+      exampleCn: '因为下雨，我的衣服全湿了�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -714,11 +713,11 @@ export const vocabData = {
     {
       id: 'u1_below',
       english: 'below',
-      chinese: '在……下面',
+      chinese: '在……下�?,
       phonetic: '/bɪˈloʊ/',
       partOfSpeech: 'prep.',
       exampleEn: 'We could see the city below us.',
-      exampleCn: '我们可以看到下面的城市。',
+      exampleCn: '我们可以看到下面的城市�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -726,11 +725,11 @@ export const vocabData = {
     {
       id: 'u1_enough',
       english: 'enough',
-      chinese: '足够的',
+      chinese: '足够�?,
       phonetic: '/ɪˈnʌf/',
       partOfSpeech: 'adj.',
       exampleEn: 'We did not have enough money for a taxi.',
-      exampleCn: '我们没有足够的钱打出租车。',
+      exampleCn: '我们没有足够的钱打出租车�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -738,11 +737,11 @@ export const vocabData = {
     {
       id: 'u1_hungry',
       english: 'hungry',
-      chinese: '饥饿的',
+      chinese: '饥饿�?,
       phonetic: '/ˈhʌŋɡri/',
       partOfSpeech: 'adj.',
       exampleEn: 'I was really hungry after the long walk.',
-      exampleCn: '走了很长的路后我真的很饿。',
+      exampleCn: '走了很长的路后我真的很饿�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -750,11 +749,11 @@ export const vocabData = {
     {
       id: 'u1_hill',
       english: 'hill',
-      chinese: '小山；山丘',
+      chinese: '小山；山�?,
       phonetic: '/hɪl/',
       partOfSpeech: 'n.',
       exampleEn: 'We walked up the hill slowly.',
-      exampleCn: '我们慢慢地爬上了小山。',
+      exampleCn: '我们慢慢地爬上了小山�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -762,11 +761,11 @@ export const vocabData = {
     {
       id: 'u1_duck',
       english: 'duck',
-      chinese: '鸭',
+      chinese: '�?,
       phonetic: '/dʌk/',
       partOfSpeech: 'n.',
       exampleEn: 'We had Peking duck for dinner.',
-      exampleCn: '我们晚饭吃了北京烤鸭。',
+      exampleCn: '我们晚饭吃了北京烤鸭�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 1
@@ -774,11 +773,11 @@ export const vocabData = {
     {
       id: 'u1_dislike',
       english: 'dislike',
-      chinese: '不喜欢',
+      chinese: '不喜�?,
       phonetic: '/dɪsˈlaɪk/',
       partOfSpeech: 'v.',
       exampleEn: 'I dislike crowded places.',
-      exampleCn: '我不喜欢拥挤的地方。',
+      exampleCn: '我不喜欢拥挤的地方�?,
       unit: 'unit1',
       unitName: 'Where did you go on vacation?',
       difficulty: 2
@@ -797,7 +796,7 @@ export const vocabData = {
       phonetic: '/ˈhaʊswɜːrk/',
       partOfSpeech: 'n.',
       exampleEn: 'My mother does housework every day.',
-      exampleCn: '我妈妈每天做家务。',
+      exampleCn: '我妈妈每天做家务�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -805,11 +804,11 @@ export const vocabData = {
     {
       id: 'u2_hardly',
       english: 'hardly',
-      chinese: '几乎不',
+      chinese: '几乎�?,
       phonetic: '/ˈhɑːrdli/',
       partOfSpeech: 'adv.',
       exampleEn: 'I hardly ever watch TV.',
-      exampleCn: '我几乎不看电视。',
+      exampleCn: '我几乎不看电视�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -817,11 +816,11 @@ export const vocabData = {
     {
       id: 'u2_ever',
       english: 'ever',
-      chinese: '曾经；在任何时候',
+      chinese: '曾经；在任何时�?,
       phonetic: '/ˈevər/',
       partOfSpeech: 'adv.',
       exampleEn: 'Do you ever go to the movies?',
-      exampleCn: '你有去看过电影吗？',
+      exampleCn: '你有去看过电影吗�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -829,11 +828,11 @@ export const vocabData = {
     {
       id: 'u2_once',
       english: 'once',
-      chinese: '一次',
+      chinese: '一�?,
       phonetic: '/wʌns/',
       partOfSpeech: 'adv.',
       exampleEn: 'I exercise once a week.',
-      exampleCn: '我一周锻炼一次。',
+      exampleCn: '我一周锻炼一次�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -845,7 +844,7 @@ export const vocabData = {
       phonetic: '/twaɪs/',
       partOfSpeech: 'adv.',
       exampleEn: 'He goes swimming twice a week.',
-      exampleCn: '他一周游两次泳。',
+      exampleCn: '他一周游两次泳�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -853,11 +852,11 @@ export const vocabData = {
     {
       id: 'u2_internet',
       english: 'Internet',
-      chinese: '互联网',
+      chinese: '互联�?,
       phonetic: '/ˈɪntərnet/',
       partOfSpeech: 'n.',
       exampleEn: 'I use the Internet to do homework.',
-      exampleCn: '我用互联网做作业。',
+      exampleCn: '我用互联网做作业�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -865,7 +864,7 @@ export const vocabData = {
     {
       id: 'u2_program',
       english: 'program',
-      chinese: '节目；程序',
+      chinese: '节目；程�?,
       phonetic: '/ˈproʊɡræm/',
       partOfSpeech: 'n.',
       exampleEn: 'What is your favorite TV program?',
@@ -881,7 +880,7 @@ export const vocabData = {
       phonetic: '/fʊl/',
       partOfSpeech: 'adj.',
       exampleEn: 'My schedule is full this week.',
-      exampleCn: '这周我的日程排满了。',
+      exampleCn: '这周我的日程排满了�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -889,7 +888,7 @@ export const vocabData = {
     {
       id: 'u2_swing',
       english: 'swing',
-      chinese: '摇摆；秋千',
+      chinese: '摇摆；秋�?,
       phonetic: '/swɪŋ/',
       partOfSpeech: 'n./v.',
       exampleEn: 'Do you like swing dance?',
@@ -901,11 +900,11 @@ export const vocabData = {
     {
       id: 'u2_maybe',
       english: 'maybe',
-      chinese: '大概；或许',
+      chinese: '大概；或�?,
       phonetic: '/ˈmeɪbi/',
       partOfSpeech: 'adv.',
       exampleEn: 'Maybe you should exercise more.',
-      exampleCn: '也许你应该多运动。',
+      exampleCn: '也许你应该多运动�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -917,7 +916,7 @@ export const vocabData = {
       phonetic: '/liːst/',
       partOfSpeech: 'adj.',
       exampleEn: 'You should exercise at least three times a week.',
-      exampleCn: '你应该一周至少锻炼三次。',
+      exampleCn: '你应该一周至少锻炼三次�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -925,11 +924,11 @@ export const vocabData = {
     {
       id: 'u2_junk',
       english: 'junk',
-      chinese: '垃圾；废旧物品',
+      chinese: '垃圾；废旧物�?,
       phonetic: '/dʒʌŋk/',
       partOfSpeech: 'n.',
       exampleEn: 'Eating junk food is bad for your health.',
-      exampleCn: '吃垃圾食品对你的健康有害。',
+      exampleCn: '吃垃圾食品对你的健康有害�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -941,7 +940,7 @@ export const vocabData = {
       phonetic: '/ˈkɔːfi/',
       partOfSpeech: 'n.',
       exampleEn: 'I never drink coffee.',
-      exampleCn: '我从不喝咖啡。',
+      exampleCn: '我从不喝咖啡�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -953,7 +952,7 @@ export const vocabData = {
       phonetic: '/helθ/',
       partOfSpeech: 'n.',
       exampleEn: 'Good food and exercise are good for your health.',
-      exampleCn: '好的食物和运动对你的健康有好处。',
+      exampleCn: '好的食物和运动对你的健康有好处�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -965,7 +964,7 @@ export const vocabData = {
       phonetic: '/rɪˈzʌlt/',
       partOfSpeech: 'n.',
       exampleEn: 'Here are the results of the student activity survey.',
-      exampleCn: '这是学生活动调查的结果。',
+      exampleCn: '这是学生活动调查的结果�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -973,11 +972,11 @@ export const vocabData = {
     {
       id: 'u2_percent',
       english: 'percent',
-      chinese: '百分之……',
+      chinese: '百分之…�?,
       phonetic: '/pərˈsent/',
       partOfSpeech: 'n.',
       exampleEn: 'Fifteen percent of our students exercise every day.',
-      exampleCn: '我们百分之十五的学生每天锻炼。',
+      exampleCn: '我们百分之十五的学生每天锻炼�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -985,11 +984,11 @@ export const vocabData = {
     {
       id: 'u2_online',
       english: 'online',
-      chinese: '在线的；联网的',
+      chinese: '在线的；联网�?,
       phonetic: '/ˌɑːnˈlaɪn/',
       partOfSpeech: 'adj./adv.',
       exampleEn: 'I go online every day.',
-      exampleCn: '我每天上网。',
+      exampleCn: '我每天上网�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -997,11 +996,11 @@ export const vocabData = {
     {
       id: 'u2_television',
       english: 'television',
-      chinese: '电视机',
+      chinese: '电视�?,
       phonetic: '/ˈtelɪvɪʒn/',
       partOfSpeech: 'n.',
       exampleEn: 'I watch television for about two hours a day.',
-      exampleCn: '我一天看大约两个小时的电视。',
+      exampleCn: '我一天看大约两个小时的电视�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1009,11 +1008,11 @@ export const vocabData = {
     {
       id: 'u2_although',
       english: 'although',
-      chinese: '虽然；尽管',
+      chinese: '虽然；尽�?,
       phonetic: '/ɔːlˈðoʊ/',
       partOfSpeech: 'conj.',
       exampleEn: 'Although he is young, he works very hard.',
-      exampleCn: '虽然他很年轻，但他工作很努力。',
+      exampleCn: '虽然他很年轻，但他工作很努力�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 3
@@ -1025,7 +1024,7 @@ export const vocabData = {
       phonetic: '/θruː/',
       partOfSpeech: 'prep.',
       exampleEn: 'I learned about it through the Internet.',
-      exampleCn: '我通过互联网了解到的。',
+      exampleCn: '我通过互联网了解到的�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1033,11 +1032,11 @@ export const vocabData = {
     {
       id: 'u2_mind',
       english: 'mind',
-      chinese: '头脑；心智',
+      chinese: '头脑；心�?,
       phonetic: '/maɪnd/',
       partOfSpeech: 'n.',
       exampleEn: 'Exercise is good for the mind and the body.',
-      exampleCn: '锻炼对身心都有好处。',
+      exampleCn: '锻炼对身心都有好处�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1049,7 +1048,7 @@ export const vocabData = {
       phonetic: '/ˈbɑːdi/',
       partOfSpeech: 'n.',
       exampleEn: 'Exercise is good for your body.',
-      exampleCn: '锻炼对你的身体有好处。',
+      exampleCn: '锻炼对你的身体有好处�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1057,11 +1056,11 @@ export const vocabData = {
     {
       id: 'u2_such',
       english: 'such',
-      chinese: '这样的；如此的',
+      chinese: '这样的；如此�?,
       phonetic: '/sʌtʃ/',
       partOfSpeech: 'adj.',
       exampleEn: 'Such activities are good for you.',
-      exampleCn: '这样的活动对你有好处。',
+      exampleCn: '这样的活动对你有好处�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1069,11 +1068,11 @@ export const vocabData = {
     {
       id: 'u2_together',
       english: 'together',
-      chinese: '一起',
+      chinese: '一�?,
       phonetic: '/təˈɡeðər/',
       partOfSpeech: 'adv.',
       exampleEn: 'We exercise together every morning.',
-      exampleCn: '我们每天早上一起锻炼。',
+      exampleCn: '我们每天早上一起锻炼�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1085,7 +1084,7 @@ export const vocabData = {
       phonetic: '/daɪ/',
       partOfSpeech: 'v.',
       exampleEn: 'Old habits die hard.',
-      exampleCn: '旧习惯很难改掉。',
+      exampleCn: '旧习惯很难改掉�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1097,7 +1096,7 @@ export const vocabData = {
       phonetic: '/ˈraɪtər/',
       partOfSpeech: 'n.',
       exampleEn: 'The writer thinks exercise is very important.',
-      exampleCn: '这位作者认为锻炼非常重要。',
+      exampleCn: '这位作者认为锻炼非常重要�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1109,7 +1108,7 @@ export const vocabData = {
       phonetic: '/ˈdentɪst/',
       partOfSpeech: 'n.',
       exampleEn: 'I go to the dentist twice a year.',
-      exampleCn: '我一年去看两次牙医。',
+      exampleCn: '我一年去看两次牙医�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1121,7 +1120,7 @@ export const vocabData = {
       phonetic: '/ˌmæɡəˈziːn/',
       partOfSpeech: 'n.',
       exampleEn: 'I read English magazines to improve my English.',
-      exampleCn: '我读英文杂志来提高英语。',
+      exampleCn: '我读英文杂志来提高英语�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1133,7 +1132,7 @@ export const vocabData = {
       phonetic: '/haʊˈevər/',
       partOfSpeech: 'adv.',
       exampleEn: 'However, not all students like to exercise.',
-      exampleCn: '然而，并非所有学生都喜欢锻炼。',
+      exampleCn: '然而，并非所有学生都喜欢锻炼�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 3
@@ -1141,11 +1140,11 @@ export const vocabData = {
     {
       id: 'u2_than',
       english: 'than',
-      chinese: '比',
+      chinese: '�?,
       phonetic: '/ðæn/',
       partOfSpeech: 'conj.',
       exampleEn: 'He exercises more than I do.',
-      exampleCn: '他比我锻炼得多。',
+      exampleCn: '他比我锻炼得多�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1157,7 +1156,7 @@ export const vocabData = {
       phonetic: '/ˈɔːlmoʊst/',
       partOfSpeech: 'adv.',
       exampleEn: 'Almost everyone in our class likes sports.',
-      exampleCn: '我们班上几乎每个人都喜欢运动。',
+      exampleCn: '我们班上几乎每个人都喜欢运动�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1165,11 +1164,11 @@ export const vocabData = {
     {
       id: 'u2_none',
       english: 'none',
-      chinese: '没有一个',
+      chinese: '没有一�?,
       phonetic: '/nʌn/',
       partOfSpeech: 'pron.',
       exampleEn: 'None of the students exercise on weekdays.',
-      exampleCn: '没有学生在工作日锻炼。',
+      exampleCn: '没有学生在工作日锻炼�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1177,11 +1176,11 @@ export const vocabData = {
     {
       id: 'u2_less',
       english: 'less',
-      chinese: '更少的',
+      chinese: '更少�?,
       phonetic: '/les/',
       partOfSpeech: 'adj.',
       exampleEn: 'You should eat less junk food.',
-      exampleCn: '你应该少吃垃圾食品。',
+      exampleCn: '你应该少吃垃圾食品�?,
       unit: 'unit2',
       unitName: 'How often do you exercise?',
       difficulty: 2
@@ -1189,7 +1188,7 @@ export const vocabData = {
     {
       id: 'u2_point',
       english: 'point',
-      chinese: '得分；要点',
+      chinese: '得分；要�?,
       phonetic: '/pɔɪnt/',
       partOfSpeech: 'n.',
       exampleEn: "What's the point of studying hard?",
@@ -1202,17 +1201,16 @@ export const vocabData = {
 
   // ============================================================
   // Unit 3: I'm more outgoing than my sister.
-  // 话题：比较人物特征（形容词比较级）
-  // ============================================================
+  // 话题：比较人物特征（形容词比较级�?  // ============================================================
   unit3: [
     {
       id: 'u3_outgoing',
       english: 'outgoing',
-      chinese: '外向的',
+      chinese: '外向�?,
       phonetic: '/ˈaʊtɡoʊɪŋ/',
       partOfSpeech: 'adj.',
       exampleEn: "I'm more outgoing than my sister.",
-      exampleCn: '我比我姐姐更外向。',
+      exampleCn: '我比我姐姐更外向�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1220,11 +1218,11 @@ export const vocabData = {
     {
       id: 'u3_better',
       english: 'better',
-      chinese: '更好的',
+      chinese: '更好�?,
       phonetic: '/ˈbetər/',
       partOfSpeech: 'adj.',
       exampleEn: 'She is better at English than me.',
-      exampleCn: '她的英语比我好。',
+      exampleCn: '她的英语比我好�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1232,11 +1230,11 @@ export const vocabData = {
     {
       id: 'u3_loudly',
       english: 'loudly',
-      chinese: '大声地',
+      chinese: '大声�?,
       phonetic: '/ˈlaʊdli/',
       partOfSpeech: 'adv.',
       exampleEn: 'She speaks more loudly than me.',
-      exampleCn: '她说话声音比我大。',
+      exampleCn: '她说话声音比我大�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1244,11 +1242,11 @@ export const vocabData = {
     {
       id: 'u3_quietly',
       english: 'quietly',
-      chinese: '安静地',
+      chinese: '安静�?,
       phonetic: '/ˈkwaɪətli/',
       partOfSpeech: 'adv.',
       exampleEn: 'She always speaks quietly.',
-      exampleCn: '她总是小声说话。',
+      exampleCn: '她总是小声说话�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1256,11 +1254,11 @@ export const vocabData = {
     {
       id: 'u3_hardworking',
       english: 'hard-working',
-      chinese: '勤奋的',
+      chinese: '勤奋�?,
       phonetic: '/ˌhɑːrd ˈwɜːrkɪŋ/',
       partOfSpeech: 'adj.',
       exampleEn: 'Tina is more hard-working than Tara.',
-      exampleCn: 'Tina 比 Tara 更勤奋。',
+      exampleCn: 'Tina �?Tara 更勤奋�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1268,11 +1266,11 @@ export const vocabData = {
     {
       id: 'u3_competition',
       english: 'competition',
-      chinese: '竞赛；比赛',
+      chinese: '竞赛；比�?,
       phonetic: '/ˌkɑːmpəˈtɪʃn/',
       partOfSpeech: 'n.',
       exampleEn: 'She won the singing competition.',
-      exampleCn: '她赢了歌唱比赛。',
+      exampleCn: '她赢了歌唱比赛�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 3
@@ -1284,7 +1282,7 @@ export const vocabData = {
       phonetic: '/fænˈtæstɪk/',
       partOfSpeech: 'adj.',
       exampleEn: 'That sounds fantastic!',
-      exampleCn: '听起来太棒了！',
+      exampleCn: '听起来太棒了�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1292,11 +1290,11 @@ export const vocabData = {
     {
       id: 'u3_which',
       english: 'which',
-      chinese: '哪一个',
+      chinese: '哪一�?,
       phonetic: '/wɪtʃ/',
       partOfSpeech: 'pron.',
       exampleEn: 'Which one is Lisa?',
-      exampleCn: '哪一个是 Lisa？',
+      exampleCn: '哪一个是 Lisa�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1304,11 +1302,11 @@ export const vocabData = {
     {
       id: 'u3_clearly',
       english: 'clearly',
-      chinese: '清楚地；明确地',
+      chinese: '清楚地；明确�?,
       phonetic: '/ˈklɪrli/',
       partOfSpeech: 'adv.',
       exampleEn: 'She speaks more clearly than her brother.',
-      exampleCn: '她说话比她哥哥更清楚。',
+      exampleCn: '她说话比她哥哥更清楚�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1320,7 +1318,7 @@ export const vocabData = {
       phonetic: '/wɪn/',
       partOfSpeech: 'v.',
       exampleEn: 'I think the most important thing is to win.',
-      exampleCn: '我认为最重要的事情是赢。',
+      exampleCn: '我认为最重要的事情是赢�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1332,7 +1330,7 @@ export const vocabData = {
       phonetic: '/ðoʊ/',
       partOfSpeech: 'conj./adv.',
       exampleEn: 'My best friend is similar to me, though we have some differences.',
-      exampleCn: '我最好的朋友跟我很像，不过我们有一些不同。',
+      exampleCn: '我最好的朋友跟我很像，不过我们有一些不同�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 3
@@ -1344,7 +1342,7 @@ export const vocabData = {
       phonetic: '/ˈtæləntɪd/',
       partOfSpeech: 'adj.',
       exampleEn: 'She is a talented musician.',
-      exampleCn: '她是一个有天赋的音乐家。',
+      exampleCn: '她是一个有天赋的音乐家�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1352,11 +1350,11 @@ export const vocabData = {
     {
       id: 'u3_truly',
       english: 'truly',
-      chinese: '真正；确实',
+      chinese: '真正；确�?,
       phonetic: '/ˈtruːli/',
       partOfSpeech: 'adv.',
       exampleEn: 'A truly good friend reaches for your hand.',
-      exampleCn: '一个真正的好朋友会向你伸出手。',
+      exampleCn: '一个真正的好朋友会向你伸出手�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1364,11 +1362,11 @@ export const vocabData = {
     {
       id: 'u3_care',
       english: 'care',
-      chinese: '关心；在意',
+      chinese: '关心；在�?,
       phonetic: '/keər/',
       partOfSpeech: 'v.',
       exampleEn: 'A good friend cares about you.',
-      exampleCn: '一个好朋友会关心你。',
+      exampleCn: '一个好朋友会关心你�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1376,11 +1374,11 @@ export const vocabData = {
     {
       id: 'u3_serious',
       english: 'serious',
-      chinese: '严肃的；认真的',
+      chinese: '严肃的；认真�?,
       phonetic: '/ˈsɪriəs/',
       partOfSpeech: 'adj.',
       exampleEn: 'He is a very serious person.',
-      exampleCn: '他是一个非常认真的人。',
+      exampleCn: '他是一个非常认真的人�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1392,7 +1390,7 @@ export const vocabData = {
       phonetic: '/ˈmɪrər/',
       partOfSpeech: 'n.',
       exampleEn: 'Friends are like mirrors.',
-      exampleCn: '朋友就像镜子。',
+      exampleCn: '朋友就像镜子�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1400,11 +1398,11 @@ export const vocabData = {
     {
       id: 'u3_necessary',
       english: 'necessary',
-      chinese: '必要的；必需的',
+      chinese: '必要的；必需�?,
       phonetic: '/ˈnesəseri/',
       partOfSpeech: 'adj.',
       exampleEn: "It's not necessary to be the same.",
-      exampleCn: '没有必要一样。',
+      exampleCn: '没有必要一样�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 3
@@ -1412,11 +1410,11 @@ export const vocabData = {
     {
       id: 'u3_both',
       english: 'both',
-      chinese: '两个都',
+      chinese: '两个�?,
       phonetic: '/boʊθ/',
       partOfSpeech: 'pron.',
       exampleEn: 'We both like sports.',
-      exampleCn: '我们俩都喜欢运动。',
+      exampleCn: '我们俩都喜欢运动�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1428,7 +1426,7 @@ export const vocabData = {
       phonetic: '/ʃʊd/',
       partOfSpeech: 'modal v.',
       exampleEn: 'Friends should be different from you.',
-      exampleCn: '朋友应该和你不同。',
+      exampleCn: '朋友应该和你不同�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1436,11 +1434,11 @@ export const vocabData = {
     {
       id: 'u3_touch',
       english: 'touch',
-      chinese: '触摸；感动',
+      chinese: '触摸；感�?,
       phonetic: '/tʌtʃ/',
       partOfSpeech: 'v.',
       exampleEn: 'A good friend touches your heart.',
-      exampleCn: '一个好朋友能触动你的心。',
+      exampleCn: '一个好朋友能触动你的心�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1448,11 +1446,11 @@ export const vocabData = {
     {
       id: 'u3_reach',
       english: 'reach',
-      chinese: '到达；伸手',
+      chinese: '到达；伸�?,
       phonetic: '/riːtʃ/',
       partOfSpeech: 'v.',
       exampleEn: 'A good friend reaches for your hand.',
-      exampleCn: '一个好朋友会向你伸出手。',
+      exampleCn: '一个好朋友会向你伸出手�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1460,11 +1458,11 @@ export const vocabData = {
     {
       id: 'u3_heart',
       english: 'heart',
-      chinese: '心脏；内心',
+      chinese: '心脏；内�?,
       phonetic: '/hɑːrt/',
       partOfSpeech: 'n.',
       exampleEn: 'A good friend touches your heart.',
-      exampleCn: '一个好朋友能触动你的心。',
+      exampleCn: '一个好朋友能触动你的心�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1472,11 +1470,11 @@ export const vocabData = {
     {
       id: 'u3_fact',
       english: 'fact',
-      chinese: '事实；真相',
+      chinese: '事实；真�?,
       phonetic: '/fækt/',
       partOfSpeech: 'n.',
       exampleEn: 'In fact, she is funnier than anyone.',
-      exampleCn: '事实上，她比任何人都有趣。',
+      exampleCn: '事实上，她比任何人都有趣�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1484,11 +1482,11 @@ export const vocabData = {
     {
       id: 'u3_break',
       english: 'break',
-      chinese: '打破；休息',
+      chinese: '打破；休�?,
       phonetic: '/breɪk/',
       partOfSpeech: 'v./n.',
       exampleEn: 'She can always break the ice.',
-      exampleCn: '她总能打破僵局。',
+      exampleCn: '她总能打破僵局�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1496,11 +1494,11 @@ export const vocabData = {
     {
       id: 'u3_laugh',
       english: 'laugh',
-      chinese: '笑',
+      chinese: '�?,
       phonetic: '/læf/',
       partOfSpeech: 'v.',
       exampleEn: 'She always makes me laugh.',
-      exampleCn: '她总是让我笑。',
+      exampleCn: '她总是让我笑�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1508,11 +1506,11 @@ export const vocabData = {
     {
       id: 'u3_similar',
       english: 'similar',
-      chinese: '相似的',
+      chinese: '相似�?,
       phonetic: '/ˈsɪmɪlər/',
       partOfSpeech: 'adj.',
       exampleEn: 'We are similar in many ways.',
-      exampleCn: '我们在很多方面相似。',
+      exampleCn: '我们在很多方面相似�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1524,7 +1522,7 @@ export const vocabData = {
       phonetic: '/ˈpraɪmeri/',
       partOfSpeech: 'adj.',
       exampleEn: 'We have been friends since primary school.',
-      exampleCn: '我们从小学就是朋友了。',
+      exampleCn: '我们从小学就是朋友了�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 3
@@ -1536,7 +1534,7 @@ export const vocabData = {
       phonetic: '/ˌɪnfərˈmeɪʃn/',
       partOfSpeech: 'n.',
       exampleEn: 'I need some information about the competition.',
-      exampleCn: '我需要一些关于比赛的信息。',
+      exampleCn: '我需要一些关于比赛的信息�?,
       unit: 'unit3',
       unitName: "I'm more outgoing than my sister.",
       difficulty: 2
@@ -1545,8 +1543,7 @@ export const vocabData = {
 
   // ============================================================
   // Unit 4: What's the best movie theater?
-  // 话题：谈论喜好与最佳事物（形容词最高级）
-  // ============================================================
+  // 话题：谈论喜好与最佳事物（形容词最高级�?  // ============================================================
   unit4: [
     {
       id: 'u4_theater',
@@ -1555,7 +1552,7 @@ export const vocabData = {
       phonetic: '/ˈθiːətər/',
       partOfSpeech: 'n.',
       exampleEn: "What's the best movie theater?",
-      exampleCn: '最好的电影院是哪家？',
+      exampleCn: '最好的电影院是哪家�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1567,7 +1564,7 @@ export const vocabData = {
       phonetic: '/ˈkʌmftəbl/',
       partOfSpeech: 'adj.',
       exampleEn: 'It has the most comfortable seats.',
-      exampleCn: '它有最舒适的座位。',
+      exampleCn: '它有最舒适的座位�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1579,7 +1576,7 @@ export const vocabData = {
       phonetic: '/siːt/',
       partOfSpeech: 'n.',
       exampleEn: 'The seats in this theater are very comfortable.',
-      exampleCn: '这个影院的座位非常舒适。',
+      exampleCn: '这个影院的座位非常舒适�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1587,11 +1584,11 @@ export const vocabData = {
     {
       id: 'u4_screen',
       english: 'screen',
-      chinese: '屏幕；银幕',
+      chinese: '屏幕；银�?,
       phonetic: '/skriːn/',
       partOfSpeech: 'n.',
       exampleEn: 'It has the biggest screen in town.',
-      exampleCn: '它有全城最大的屏幕。',
+      exampleCn: '它有全城最大的屏幕�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1603,7 +1600,7 @@ export const vocabData = {
       phonetic: '/kloʊs/',
       partOfSpeech: 'adj.',
       exampleEn: 'It is the closest to my home.',
-      exampleCn: '它离我家最近。',
+      exampleCn: '它离我家最近�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1615,7 +1612,7 @@ export const vocabData = {
       phonetic: '/wɜːrst/',
       partOfSpeech: 'adj.',
       exampleEn: 'It is the worst movie theater in town.',
-      exampleCn: '这是全城最差的电影院。',
+      exampleCn: '这是全城最差的电影院�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1623,11 +1620,11 @@ export const vocabData = {
     {
       id: 'u4_cheaply',
       english: 'cheaply',
-      chinese: '低廉地；便宜地',
+      chinese: '低廉地；便宜�?,
       phonetic: '/ˈtʃiːpli/',
       partOfSpeech: 'adv.',
       exampleEn: 'You can buy clothes most cheaply there.',
-      exampleCn: '你可以在那里最便宜地买到衣服。',
+      exampleCn: '你可以在那里最便宜地买到衣服�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1639,7 +1636,7 @@ export const vocabData = {
       phonetic: '/sɔːŋ/',
       partOfSpeech: 'n.',
       exampleEn: 'She sang the most beautiful song.',
-      exampleCn: '她唱了最好听的歌。',
+      exampleCn: '她唱了最好听的歌�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1651,7 +1648,7 @@ export const vocabData = {
       phonetic: '/tʃuːz/',
       partOfSpeech: 'v.',
       exampleEn: 'It is up to you to choose the best one.',
-      exampleCn: '由你来选择最好的那个。',
+      exampleCn: '由你来选择最好的那个�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1659,11 +1656,11 @@ export const vocabData = {
     {
       id: 'u4_carefully',
       english: 'carefully',
-      chinese: '仔细地；认真地',
+      chinese: '仔细地；认真�?,
       phonetic: '/ˈkerfəli/',
       partOfSpeech: 'adv.',
       exampleEn: 'You should choose carefully.',
-      exampleCn: '你应该仔细选择。',
+      exampleCn: '你应该仔细选择�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1671,11 +1668,11 @@ export const vocabData = {
     {
       id: 'u4_reporter',
       english: 'reporter',
-      chinese: '记者',
+      chinese: '记�?,
       phonetic: '/rɪˈpɔːrtər/',
       partOfSpeech: 'n.',
       exampleEn: 'The reporter asked some questions.',
-      exampleCn: '记者问了一些问题。',
+      exampleCn: '记者问了一些问题�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1683,11 +1680,11 @@ export const vocabData = {
     {
       id: 'u4_fresh',
       english: 'fresh',
-      chinese: '新鲜的',
+      chinese: '新鲜�?,
       phonetic: '/freʃ/',
       partOfSpeech: 'adj.',
       exampleEn: 'This restaurant has the freshest food.',
-      exampleCn: '这家餐厅有最新鲜的食物。',
+      exampleCn: '这家餐厅有最新鲜的食物�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1695,11 +1692,11 @@ export const vocabData = {
     {
       id: 'u4_comfortably',
       english: 'comfortably',
-      chinese: '舒服地',
+      chinese: '舒服�?,
       phonetic: '/ˈkʌmftəbli/',
       partOfSpeech: 'adv.',
       exampleEn: 'You can sit most comfortably here.',
-      exampleCn: '你可以在这里坐得最舒服。',
+      exampleCn: '你可以在这里坐得最舒服�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 3
@@ -1707,11 +1704,11 @@ export const vocabData = {
     {
       id: 'u4_worse',
       english: 'worse',
-      chinese: '更差的；更糟的',
+      chinese: '更差的；更糟�?,
       phonetic: '/wɜːrs/',
       partOfSpeech: 'adj.',
       exampleEn: 'The food is even worse than before.',
-      exampleCn: '食物比以前更差了。',
+      exampleCn: '食物比以前更差了�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1723,7 +1720,7 @@ export const vocabData = {
       phonetic: '/ˈsɜːrvɪs/',
       partOfSpeech: 'n.',
       exampleEn: 'The service here is the best.',
-      exampleCn: '这里的服务是最好的。',
+      exampleCn: '这里的服务是最好的�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1731,11 +1728,11 @@ export const vocabData = {
     {
       id: 'u4_pretty',
       english: 'pretty',
-      chinese: '相当；十分',
+      chinese: '相当；十�?,
       phonetic: '/ˈprɪti/',
       partOfSpeech: 'adv.',
       exampleEn: 'The food is pretty good.',
-      exampleCn: '食物相当不错。',
+      exampleCn: '食物相当不错�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1755,11 +1752,11 @@ export const vocabData = {
     {
       id: 'u4_act',
       english: 'act',
-      chinese: '表演；行动',
+      chinese: '表演；行�?,
       phonetic: '/ækt/',
       partOfSpeech: 'v.',
       exampleEn: 'She acts the best in the show.',
-      exampleCn: '她在节目中表演得最好。',
+      exampleCn: '她在节目中表演得最好�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1767,11 +1764,11 @@ export const vocabData = {
     {
       id: 'u4_meal',
       english: 'meal',
-      chinese: '一餐',
+      chinese: '一�?,
       phonetic: '/miːl/',
       partOfSpeech: 'n.',
       exampleEn: 'We had a wonderful meal there.',
-      exampleCn: '我们在那里吃了一顿美餐。',
+      exampleCn: '我们在那里吃了一顿美餐�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1779,11 +1776,11 @@ export const vocabData = {
     {
       id: 'u4_creative',
       english: 'creative',
-      chinese: '有创造力的',
+      chinese: '有创造力�?,
       phonetic: '/kriˈeɪtɪv/',
       partOfSpeech: 'adj.',
       exampleEn: 'The most creative performer won the prize.',
-      exampleCn: '最有创造力的表演者获了奖。',
+      exampleCn: '最有创造力的表演者获了奖�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 3
@@ -1791,7 +1788,7 @@ export const vocabData = {
     {
       id: 'u4_performer',
       english: 'performer',
-      chinese: '表演者',
+      chinese: '表演�?,
       phonetic: '/pərˈfɔːrmər/',
       partOfSpeech: 'n.',
       exampleEn: 'Who is the best performer?',
@@ -1803,11 +1800,11 @@ export const vocabData = {
     {
       id: 'u4_talent',
       english: 'talent',
-      chinese: '才能；天赋',
+      chinese: '才能；天�?,
       phonetic: '/ˈtælənt/',
       partOfSpeech: 'n.',
       exampleEn: 'She has a talent for singing.',
-      exampleCn: '她有唱歌的天赋。',
+      exampleCn: '她有唱歌的天赋�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1819,7 +1816,7 @@ export const vocabData = {
       phonetic: '/ˈkɑːmən/',
       partOfSpeech: 'adj.',
       exampleEn: 'Talent shows are getting more and more common.',
-      exampleCn: '才艺展示越来越常见了。',
+      exampleCn: '才艺展示越来越常见了�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1827,11 +1824,11 @@ export const vocabData = {
     {
       id: 'u4_magician',
       english: 'magician',
-      chinese: '魔术师',
+      chinese: '魔术�?,
       phonetic: '/məˈdʒɪʃn/',
       partOfSpeech: 'n.',
       exampleEn: 'The magician performed the best act.',
-      exampleCn: '魔术师表演了最精彩的节目。',
+      exampleCn: '魔术师表演了最精彩的节目�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 3
@@ -1839,11 +1836,11 @@ export const vocabData = {
     {
       id: 'u4_beautifully',
       english: 'beautifully',
-      chinese: '美丽地；漂亮地',
+      chinese: '美丽地；漂亮�?,
       phonetic: '/ˈbjuːtɪfli/',
       partOfSpeech: 'adv.',
       exampleEn: 'She sang the most beautifully.',
-      exampleCn: '她唱得最好听。',
+      exampleCn: '她唱得最好听�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1851,11 +1848,11 @@ export const vocabData = {
     {
       id: 'u4_role',
       english: 'role',
-      chinese: '角色；作用',
+      chinese: '角色；作�?,
       phonetic: '/roʊl/',
       partOfSpeech: 'n.',
       exampleEn: 'They play an important role in the show.',
-      exampleCn: '他们在节目中扮演着重要的角色。',
+      exampleCn: '他们在节目中扮演着重要的角色�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1863,11 +1860,11 @@ export const vocabData = {
     {
       id: 'u4_prize',
       english: 'prize',
-      chinese: '奖品；奖金',
+      chinese: '奖品；奖�?,
       phonetic: '/praɪz/',
       partOfSpeech: 'n.',
       exampleEn: 'She won a nice prize.',
-      exampleCn: '她赢了一个不错的奖品。',
+      exampleCn: '她赢了一个不错的奖品�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1875,11 +1872,11 @@ export const vocabData = {
     {
       id: 'u4_everybody',
       english: 'everybody',
-      chinese: '每人；人人',
+      chinese: '每人；人�?,
       phonetic: '/ˈevribɑːdi/',
       partOfSpeech: 'pron.',
       exampleEn: 'Everybody enjoyed the show.',
-      exampleCn: '每个人都喜欢这个节目。',
+      exampleCn: '每个人都喜欢这个节目�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1887,11 +1884,11 @@ export const vocabData = {
     {
       id: 'u4_example',
       english: 'example',
-      chinese: '例子；榜样',
+      chinese: '例子；榜�?,
       phonetic: '/ɪɡˈzæmpl/',
       partOfSpeech: 'n.',
       exampleEn: 'For example, she can sing very well.',
-      exampleCn: '例如，她唱歌唱得很好。',
+      exampleCn: '例如，她唱歌唱得很好�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1903,7 +1900,7 @@ export const vocabData = {
       phonetic: '/pʊr/',
       partOfSpeech: 'adj.',
       exampleEn: 'Some talent shows help poor people.',
-      exampleCn: '一些才艺节目帮助贫困的人。',
+      exampleCn: '一些才艺节目帮助贫困的人�?,
       unit: 'unit4',
       unitName: "What's the best movie theater?",
       difficulty: 2
@@ -1934,7 +1931,7 @@ export const vocabData = {
       phonetic: '/njuːz/',
       partOfSpeech: 'n.',
       exampleEn: 'I watch the news every evening.',
-      exampleCn: '我每天晚上看新闻。',
+      exampleCn: '我每天晚上看新闻�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -1946,7 +1943,7 @@ export const vocabData = {
       phonetic: '/ˌedʒuˈkeɪʃənl/',
       partOfSpeech: 'adj.',
       exampleEn: 'I think game shows are educational.',
-      exampleCn: '我觉得游戏节目有教育意义。',
+      exampleCn: '我觉得游戏节目有教育意义�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 3
@@ -1954,7 +1951,7 @@ export const vocabData = {
     {
       id: 'u5_plan',
       english: 'plan',
-      chinese: '计划；打算',
+      chinese: '计划；打�?,
       phonetic: '/plæn/',
       partOfSpeech: 'v./n.',
       exampleEn: 'What do you plan to watch tonight?',
@@ -1970,7 +1967,7 @@ export const vocabData = {
       phonetic: '/hoʊp/',
       partOfSpeech: 'v.',
       exampleEn: 'I hope to be a TV reporter one day.',
-      exampleCn: '我希望有一天成为一名电视记者。',
+      exampleCn: '我希望有一天成为一名电视记者�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -1982,7 +1979,7 @@ export const vocabData = {
       phonetic: '/dɪˈskʌʃn/',
       partOfSpeech: 'n.',
       exampleEn: 'We had a discussion about TV shows.',
-      exampleCn: '我们讨论了电视节目。',
+      exampleCn: '我们讨论了电视节目�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 3
@@ -1990,11 +1987,11 @@ export const vocabData = {
     {
       id: 'u5_stand',
       english: 'stand',
-      chinese: '忍受；站立',
+      chinese: '忍受；站�?,
       phonetic: '/stænd/',
       partOfSpeech: 'v.',
       exampleEn: "I can't stand soap operas.",
-      exampleCn: '我受不了肥皂剧。',
+      exampleCn: '我受不了肥皂剧�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2014,11 +2011,11 @@ export const vocabData = {
     {
       id: 'u5_expect',
       english: 'expect',
-      chinese: '期待；预期',
+      chinese: '期待；预�?,
       phonetic: '/ɪkˈspekt/',
       partOfSpeech: 'v.',
       exampleEn: 'I expect to learn a lot from the show.',
-      exampleCn: '我期待从节目中学到很多。',
+      exampleCn: '我期待从节目中学到很多�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 3
@@ -2030,7 +2027,7 @@ export const vocabData = {
       phonetic: '/dʒoʊk/',
       partOfSpeech: 'n.',
       exampleEn: 'He told a funny joke.',
-      exampleCn: '他讲了一个有趣的笑话。',
+      exampleCn: '他讲了一个有趣的笑话�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2042,7 +2039,7 @@ export const vocabData = {
       phonetic: '/ˈkɑːmədi/',
       partOfSpeech: 'n.',
       exampleEn: 'I like watching comedies.',
-      exampleCn: '我喜欢看喜剧。',
+      exampleCn: '我喜欢看喜剧�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2050,11 +2047,11 @@ export const vocabData = {
     {
       id: 'u5_find',
       english: 'find out',
-      chinese: '查明；弄清',
+      chinese: '查明；弄�?,
       phonetic: '/faɪnd aʊt/',
       partOfSpeech: 'v.',
       exampleEn: 'I want to find out what happens next.',
-      exampleCn: '我想弄清接下来会发生什么。',
+      exampleCn: '我想弄清接下来会发生什么�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2066,7 +2063,7 @@ export const vocabData = {
       phonetic: '/ˈmiːnɪŋləs/',
       partOfSpeech: 'adj.',
       exampleEn: 'I think some TV shows are meaningless.',
-      exampleCn: '我觉得一些电视节目没有意义。',
+      exampleCn: '我觉得一些电视节目没有意义�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 3
@@ -2078,7 +2075,7 @@ export const vocabData = {
       phonetic: '/ˈækʃn/',
       partOfSpeech: 'n.',
       exampleEn: 'I like watching action movies.',
-      exampleCn: '我喜欢看动作片。',
+      exampleCn: '我喜欢看动作片�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2086,11 +2083,11 @@ export const vocabData = {
     {
       id: 'u5_cartoon',
       english: 'cartoon',
-      chinese: '卡通；动画片',
+      chinese: '卡通；动画�?,
       phonetic: '/kɑːrˈtuːn/',
       partOfSpeech: 'n.',
       exampleEn: 'My little brother loves cartoons.',
-      exampleCn: '我弟弟很喜欢看动画片。',
+      exampleCn: '我弟弟很喜欢看动画片�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2102,7 +2099,7 @@ export const vocabData = {
       phonetic: '/ˈkʌltʃər/',
       partOfSpeech: 'n.',
       exampleEn: 'I want to learn about American culture.',
-      exampleCn: '我想了解美国文化。',
+      exampleCn: '我想了解美国文化�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2110,11 +2107,11 @@ export const vocabData = {
     {
       id: 'u5_famous',
       english: 'famous',
-      chinese: '著名的',
+      chinese: '著名�?,
       phonetic: '/ˈfeɪməs/',
       partOfSpeech: 'adj.',
       exampleEn: 'Mickey Mouse is a famous cartoon character.',
-      exampleCn: '米老鼠是一个著名的卡通人物。',
+      exampleCn: '米老鼠是一个著名的卡通人物�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2126,7 +2123,7 @@ export const vocabData = {
       phonetic: '/əˈpɪr/',
       partOfSpeech: 'v.',
       exampleEn: 'Mickey Mouse first appeared in 1928.',
-      exampleCn: '米老鼠于1928年首次出现。',
+      exampleCn: '米老鼠�?928年首次出现�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2134,11 +2131,11 @@ export const vocabData = {
     {
       id: 'u5_become',
       english: 'become',
-      chinese: '变成；成为',
+      chinese: '变成；成�?,
       phonetic: '/bɪˈkʌm/',
       partOfSpeech: 'v.',
       exampleEn: 'He became very rich and successful.',
-      exampleCn: '他变得非常富有和成功。',
+      exampleCn: '他变得非常富有和成功�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2146,11 +2143,11 @@ export const vocabData = {
     {
       id: 'u5_rich',
       english: 'rich',
-      chinese: '富有的',
+      chinese: '富有�?,
       phonetic: '/rɪtʃ/',
       partOfSpeech: 'adj.',
       exampleEn: 'Walt Disney became very rich.',
-      exampleCn: '沃尔特·迪士尼变得非常富有。',
+      exampleCn: '沃尔特·迪士尼变得非常富有�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2158,11 +2155,11 @@ export const vocabData = {
     {
       id: 'u5_successful',
       english: 'successful',
-      chinese: '成功的',
+      chinese: '成功�?,
       phonetic: '/səkˈsesfl/',
       partOfSpeech: 'adj.',
       exampleEn: 'He was successful because he worked hard.',
-      exampleCn: '他很成功，因为他工作努力。',
+      exampleCn: '他很成功，因为他工作努力�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 3
@@ -2170,11 +2167,11 @@ export const vocabData = {
     {
       id: 'u5_might',
       english: 'might',
-      chinese: '可能；也许',
+      chinese: '可能；也�?,
       phonetic: '/maɪt/',
       partOfSpeech: 'modal v.',
       exampleEn: 'You might learn something new.',
-      exampleCn: '你可能会学到新东西。',
+      exampleCn: '你可能会学到新东西�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2182,11 +2179,11 @@ export const vocabData = {
     {
       id: 'u5_main',
       english: 'main',
-      chinese: '主要的',
+      chinese: '主要�?,
       phonetic: '/meɪn/',
       partOfSpeech: 'adj.',
       exampleEn: 'One of the main reasons is that Mickey was like a common man.',
-      exampleCn: '主要原因之一是米奇像一个普通人。',
+      exampleCn: '主要原因之一是米奇像一个普通人�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2194,7 +2191,7 @@ export const vocabData = {
     {
       id: 'u5_reason',
       english: 'reason',
-      chinese: '原因；理由',
+      chinese: '原因；理�?,
       phonetic: '/ˈriːzn/',
       partOfSpeech: 'n.',
       exampleEn: 'What is the main reason you like this show?',
@@ -2210,7 +2207,7 @@ export const vocabData = {
       phonetic: '/fɪlm/',
       partOfSpeech: 'n.',
       exampleEn: 'He made many famous films.',
-      exampleCn: '他拍了很多著名的电影。',
+      exampleCn: '他拍了很多著名的电影�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2218,11 +2215,11 @@ export const vocabData = {
     {
       id: 'u5_unlucky',
       english: 'unlucky',
-      chinese: '不幸的',
+      chinese: '不幸�?,
       phonetic: '/ʌnˈlʌki/',
       partOfSpeech: 'adj.',
       exampleEn: 'Mickey was unlucky but he always tried his best.',
-      exampleCn: '米奇很不幸，但他总是尽力而为。',
+      exampleCn: '米奇很不幸，但他总是尽力而为�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2230,11 +2227,11 @@ export const vocabData = {
     {
       id: 'u5_lose',
       english: 'lose',
-      chinese: '失去；输掉',
+      chinese: '失去；输�?,
       phonetic: '/luːz/',
       partOfSpeech: 'v.',
       exampleEn: "He was always ready to try his best even when he lost.",
-      exampleCn: '即使输了，他也总是准备好尽力而为。',
+      exampleCn: '即使输了，他也总是准备好尽力而为�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
@@ -2254,7 +2251,7 @@ export const vocabData = {
     {
       id: 'u5_character',
       english: 'character',
-      chinese: '人物；角色',
+      chinese: '人物；角�?,
       phonetic: '/ˈkærəktər/',
       partOfSpeech: 'n.',
       exampleEn: 'Who is your favorite cartoon character?',
@@ -2270,12 +2267,169 @@ export const vocabData = {
       phonetic: '/ˈsɪmpl/',
       partOfSpeech: 'adj.',
       exampleEn: 'Mickey Mouse is a simple but famous character.',
-      exampleCn: '米老鼠是一个简单但出名的角色。',
+      exampleCn: '米老鼠是一个简单但出名的角色�?,
       unit: 'unit5',
       unitName: 'Do you want to watch a game show?',
       difficulty: 2
     }
+  ],
+
+// Unit 6: I'm going to study computer science.
+  unit6: [
+    { id: 'u6_cook', english: 'cook', chinese: '厨师；烹饪', phonetic: '/kʊk/', partOfSpeech: 'n./v.', exampleEn: 'My uncle is a cook in a restaurant.', exampleCn: '我叔叔是一家餐厅的厨师。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_doctor', english: 'doctor', chinese: '医生', phonetic: '/ˈdɒktər/', partOfSpeech: 'n.', exampleEn: 'She wants to be a doctor.', exampleCn: '她想当医生。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 1 },
+    { id: 'u6_engineer', english: 'engineer', chinese: '工程师', phonetic: '/ˌendʒɪˈnɪər/', partOfSpeech: 'n.', exampleEn: 'My father is an engineer.', exampleCn: '我爸爸是一名工程师。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_violinist', english: 'violinist', chinese: '小提琴手', phonetic: '/ˌvaɪəˈlɪnɪst/', partOfSpeech: 'n.', exampleEn: 'He wants to be a violinist.', exampleCn: '他想成为小提琴手。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 3 },
+    { id: 'u6_driver', english: 'driver', chinese: '司机', phonetic: '/ˈdraɪvər/', partOfSpeech: 'n.', exampleEn: 'The bus driver is very friendly.', exampleCn: '公交车司机很友好。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 1 },
+    { id: 'u6_pilot', english: 'pilot', chinese: '飞行员', phonetic: '/ˈpaɪlət/', partOfSpeech: 'n.', exampleEn: 'I dream of being a pilot.', exampleCn: '我梦想成为飞行员。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_pianist', english: 'pianist', chinese: '钢琴家', phonetic: '/ˈpiːənɪst/', partOfSpeech: 'n.', exampleEn: 'Lang Lang is a famous pianist.', exampleCn: '郎朗是著名的钢琴家。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_scientist', english: 'scientist', chinese: '科学家', phonetic: '/ˈsaɪəntɪst/', partOfSpeech: 'n.', exampleEn: 'She wants to be a scientist.', exampleCn: '她想成为科学家。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_college', english: 'college', chinese: '大学', phonetic: '/ˈkɒlɪdʒ/', partOfSpeech: 'n.', exampleEn: 'I want to go to college.', exampleCn: '我想上大学。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_education', english: 'education', chinese: '教育', phonetic: '/ˌedʒuˈkeɪʃn/', partOfSpeech: 'n.', exampleEn: 'Education is very important.', exampleCn: '教育非常重要。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_medicine', english: 'medicine', chinese: '医学；药', phonetic: '/ˈmedsn/', partOfSpeech: 'n.', exampleEn: 'She is going to study medicine.', exampleCn: '她打算学医。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_university', english: 'university', chinese: '综合大学', phonetic: '/ˌjuːnɪˈvɜːrsəti/', partOfSpeech: 'n.', exampleEn: 'He studies at Beijing University.', exampleCn: '他在北京大学读书。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_article', english: 'article', chinese: '文章', phonetic: '/ˈɑːrtɪkl/', partOfSpeech: 'n.', exampleEn: 'I wrote an article about sports.', exampleCn: '我写了一篇关于运动的文章。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_send', english: 'send', chinese: '发送；邮寄', phonetic: '/send/', partOfSpeech: 'v.', exampleEn: 'Please send me an email.', exampleCn: '请给我发一封邮件。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 1 },
+    { id: 'u6_resolution', english: 'resolution', chinese: '决心；决定', phonetic: '/ˌrezəˈluːʃn/', partOfSpeech: 'n.', exampleEn: "I'm going to make a New Year's resolution.", exampleCn: '我要制定新年计划。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 3 },
+    { id: 'u6_team', english: 'team', chinese: '队；组', phonetic: '/tiːm/', partOfSpeech: 'n.', exampleEn: 'Our team won the game.', exampleCn: '我们队赢了比赛。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 1 },
+    { id: 'u6_foreign', english: 'foreign', chinese: '外国的', phonetic: '/ˈfɒrən/', partOfSpeech: 'adj.', exampleEn: 'I want to learn a foreign language.', exampleCn: '我想学一门外语。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_able', english: 'able', chinese: '能够的', phonetic: '/ˈeɪbl/', partOfSpeech: 'adj.', exampleEn: 'I am able to swim.', exampleCn: '我会游泳。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_discuss', english: 'discuss', chinese: '讨论', phonetic: '/dɪˈskʌs/', partOfSpeech: 'v.', exampleEn: 'Let us discuss the problem.', exampleCn: '让我们讨论一下这个问题。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_promise', english: 'promise', chinese: '承诺；答应', phonetic: '/ˈprɒmɪs/', partOfSpeech: 'v./n.', exampleEn: 'I promise to study hard.', exampleCn: '我保证努力学习。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_beginning', english: 'beginning', chinese: '开头；开始', phonetic: '/bɪˈɡɪnɪŋ/', partOfSpeech: 'n.', exampleEn: 'At the beginning of the year.', exampleCn: '在年初。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_improve', english: 'improve', chinese: '改善；提高', phonetic: '/ɪmˈpruːv/', partOfSpeech: 'v.', exampleEn: 'I want to improve my English.', exampleCn: '我想提高我的英语。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_physical', english: 'physical', chinese: '身体的', phonetic: '/ˈfɪzɪkl/', partOfSpeech: 'adj.', exampleEn: 'Physical exercise is good for health.', exampleCn: '体育锻炼有益健康。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_hobby', english: 'hobby', chinese: '爱好', phonetic: '/ˈhɒbi/', partOfSpeech: 'n.', exampleEn: 'My hobby is reading.', exampleCn: '我的爱好是阅读。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 1 },
+    { id: 'u6_own', english: 'own', chinese: '自己的', phonetic: '/oʊn/', partOfSpeech: 'adj.', exampleEn: 'I have my own room.', exampleCn: '我有自己的房间。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 1 },
+    { id: 'u6_personal', english: 'personal', chinese: '个人的', phonetic: '/ˈpɜːrsənl/', partOfSpeech: 'adj.', exampleEn: 'This is my personal opinion.', exampleCn: '这是我个人的看法。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 2 },
+    { id: 'u6_relationship', english: 'relationship', chinese: '关系', phonetic: '/rɪˈleɪʃnʃɪp/', partOfSpeech: 'n.', exampleEn: 'They have a good relationship.', exampleCn: '他们关系很好。', unit: 'unit6', unitName: "I'm going to study computer science.", difficulty: 3 }
+  ],
+
+  // Unit 7: Will people have robots?
+  unit7: [
+    { id: 'u7_paper', english: 'paper', chinese: '纸；论文', phonetic: '/ˈpeɪpər/', partOfSpeech: 'n.', exampleEn: 'Please give me a piece of paper.', exampleCn: '请给我一张纸。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 1 },
+    { id: 'u7_pollution', english: 'pollution', chinese: '污染', phonetic: '/pəˈluːʃn/', partOfSpeech: 'n.', exampleEn: 'Air pollution is a big problem.', exampleCn: '空气污染是个大问题。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_prediction', english: 'prediction', chinese: '预言；预测', phonetic: '/prɪˈdɪkʃn/', partOfSpeech: 'n.', exampleEn: 'His prediction came true.', exampleCn: '他的预言成真了。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 3 },
+    { id: 'u7_future', english: 'future', chinese: '未来', phonetic: '/ˈfjuːtʃər/', partOfSpeech: 'n.', exampleEn: 'What will the future be like?', exampleCn: '未来会是什么样？', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 1 },
+    { id: 'u7_environment', english: 'environment', chinese: '环境', phonetic: '/ɪnˈvaɪrənmənt/', partOfSpeech: 'n.', exampleEn: 'We should protect the environment.', exampleCn: '我们应该保护环境。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_planet', english: 'planet', chinese: '行星', phonetic: '/ˈplænɪt/', partOfSpeech: 'n.', exampleEn: 'The Earth is a beautiful planet.', exampleCn: '地球是一颗美丽的行星。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_earth', english: 'earth', chinese: '地球；泥土', phonetic: '/ɜːrθ/', partOfSpeech: 'n.', exampleEn: 'The Earth goes around the sun.', exampleCn: '地球绕着太阳转。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 1 },
+    { id: 'u7_plant', english: 'plant', chinese: '植物；种植', phonetic: '/plænt/', partOfSpeech: 'n./v.', exampleEn: 'We planted trees last week.', exampleCn: '我们上周种了树。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 1 },
+    { id: 'u7_peace', english: 'peace', chinese: '和平', phonetic: '/piːs/', partOfSpeech: 'n.', exampleEn: 'We all want world peace.', exampleCn: '我们都想要世界和平。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 1 },
+    { id: 'u7_sea', english: 'sea', chinese: '海洋', phonetic: '/siː/', partOfSpeech: 'n.', exampleEn: 'I love swimming in the sea.', exampleCn: '我喜欢在海里游泳。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 1 },
+    { id: 'u7_sky', english: 'sky', chinese: '天空', phonetic: '/skaɪ/', partOfSpeech: 'n.', exampleEn: 'The sky is blue today.', exampleCn: '今天天空很蓝。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 1 },
+    { id: 'u7_astronaut', english: 'astronaut', chinese: '宇航员', phonetic: '/ˈæstrənɔːt/', partOfSpeech: 'n.', exampleEn: 'He wants to be an astronaut.', exampleCn: '他想当宇航员。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 3 },
+    { id: 'u7_apartment', english: 'apartment', chinese: '公寓', phonetic: '/əˈpɑːrtmənt/', partOfSpeech: 'n.', exampleEn: 'They live in an apartment.', exampleCn: '他们住在公寓里。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_rocket', english: 'rocket', chinese: '火箭', phonetic: '/ˈrɒkɪt/', partOfSpeech: 'n.', exampleEn: 'The rocket flew into space.', exampleCn: '火箭飞入太空。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_space', english: 'space', chinese: '太空；空间', phonetic: '/speɪs/', partOfSpeech: 'n.', exampleEn: 'People will travel to space.', exampleCn: '人们将去太空旅行。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 1 },
+    { id: 'u7_human', english: 'human', chinese: '人类的；人', phonetic: '/ˈhjuːmən/', partOfSpeech: 'adj./n.', exampleEn: 'Robots will help humans.', exampleCn: '机器人将帮助人类。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_servant', english: 'servant', chinese: '仆人', phonetic: '/ˈsɜːrvənt/', partOfSpeech: 'n.', exampleEn: 'Robots will be our servants.', exampleCn: '机器人将是我们的仆人。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_dangerous', english: 'dangerous', chinese: '危险的', phonetic: '/ˈdeɪndʒərəs/', partOfSpeech: 'adj.', exampleEn: 'It is dangerous to swim here.', exampleCn: '在这里游泳很危险。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_already', english: 'already', chinese: '已经', phonetic: '/ɔːlˈredi/', partOfSpeech: 'adv.', exampleEn: 'I have already finished my homework.', exampleCn: '我已经完成作业了。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_factory', english: 'factory', chinese: '工厂', phonetic: '/ˈfæktəri/', partOfSpeech: 'n.', exampleEn: 'My dad works in a factory.', exampleCn: '我爸在工厂工作。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_believe', english: 'believe', chinese: '相信', phonetic: '/bɪˈliːv/', partOfSpeech: 'v.', exampleEn: 'I believe you can do it.', exampleCn: '我相信你能做到。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 1 },
+    { id: 'u7_disagree', english: 'disagree', chinese: '不同意', phonetic: '/ˌdɪsəˈɡriː/', partOfSpeech: 'v.', exampleEn: 'I disagree with you.', exampleCn: '我不同意你的看法。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_shape', english: 'shape', chinese: '形状', phonetic: '/ʃeɪp/', partOfSpeech: 'n.', exampleEn: 'What shape is this?', exampleCn: '这是什么形状？', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 1 },
+    { id: 'u7_fall', english: 'fall', chinese: '倒塌；跌落', phonetic: '/fɔːl/', partOfSpeech: 'v.', exampleEn: 'Be careful not to fall down.', exampleCn: '小心别摔倒。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 1 },
+    { id: 'u7_possible', english: 'possible', chinese: '可能的', phonetic: '/ˈpɒsəbl/', partOfSpeech: 'adj.', exampleEn: 'Everything is possible.', exampleCn: '一切皆有可能。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_impossible', english: 'impossible', chinese: '不可能的', phonetic: '/ɪmˈpɒsəbl/', partOfSpeech: 'adj.', exampleEn: 'Nothing is impossible.', exampleCn: '没有什么是不可能的。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_probably', english: 'probably', chinese: '大概；可能', phonetic: '/ˈprɒbəbli/', partOfSpeech: 'adv.', exampleEn: 'It will probably rain tomorrow.', exampleCn: '明天可能会下雨。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 },
+    { id: 'u7_during', english: 'during', chinese: '在...期间', phonetic: '/ˈdjʊərɪŋ/', partOfSpeech: 'prep.', exampleEn: 'I read a lot during the holiday.', exampleCn: '假期里我读了很多书。', unit: 'unit7', unitName: 'Will people have robots?', difficulty: 2 }
+  ],
+
+  // Unit 8: How do you make a banana milk shake?
+  unit8: [
+    { id: 'u8_shake', english: 'shake', chinese: '奶昔；摇动', phonetic: '/ʃeɪk/', partOfSpeech: 'n./v.', exampleEn: 'I want a banana milk shake.', exampleCn: '我想要一杯香蕉奶昔。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_blender', english: 'blender', chinese: '搅拌机', phonetic: '/ˈblendər/', partOfSpeech: 'n.', exampleEn: 'Put the fruit into the blender.', exampleCn: '把水果放进搅拌机。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_peel', english: 'peel', chinese: '剥皮；削皮', phonetic: '/piːl/', partOfSpeech: 'v.', exampleEn: 'Peel three bananas.', exampleCn: '剥三根香蕉的皮。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_pour', english: 'pour', chinese: '倒；浇', phonetic: '/pɔːr/', partOfSpeech: 'v.', exampleEn: 'Pour the milk into the blender.', exampleCn: '把牛奶倒进搅拌机。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_yogurt', english: 'yogurt', chinese: '酸奶', phonetic: '/ˈjoʊɡərt/', partOfSpeech: 'n.', exampleEn: 'I like to eat yogurt.', exampleCn: '我喜欢喝酸奶。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_honey', english: 'honey', chinese: '蜂蜜', phonetic: '/ˈhʌni/', partOfSpeech: 'n.', exampleEn: 'Add some honey, please.', exampleCn: '请加点蜂蜜。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_watermelon', english: 'watermelon', chinese: '西瓜', phonetic: '/ˈwɔːtərmelən/', partOfSpeech: 'n.', exampleEn: 'I love eating watermelon in summer.', exampleCn: '我夏天爱吃西瓜。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_spoon', english: 'spoon', chinese: '勺子', phonetic: '/spuːn/', partOfSpeech: 'n.', exampleEn: 'Please pass me a spoon.', exampleCn: '请递给我一把勺子。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_add', english: 'add', chinese: '增加；添加', phonetic: '/æd/', partOfSpeech: 'v.', exampleEn: 'Add some salt to the soup.', exampleCn: '往汤里加点盐。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_finally', english: 'finally', chinese: '最后；终于', phonetic: '/ˈfaɪnəli/', partOfSpeech: 'adv.', exampleEn: 'Finally, put the noodles in the bowl.', exampleCn: '最后，把面条放进碗里。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_salt', english: 'salt', chinese: '盐', phonetic: '/sɔːlt/', partOfSpeech: 'n.', exampleEn: 'Don not add too much salt.', exampleCn: '不要放太多盐。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_sugar', english: 'sugar', chinese: '糖', phonetic: '/ˈʃʊɡər/', partOfSpeech: 'n.', exampleEn: 'Do you want some sugar in your tea?', exampleCn: '你的茶要加糖吗？', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_cheese', english: 'cheese', chinese: '奶酪', phonetic: '/tʃiːz/', partOfSpeech: 'n.', exampleEn: 'I like cheese on my bread.', exampleCn: '我喜欢在面包上放奶酪。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_popcorn', english: 'popcorn', chinese: '爆米花', phonetic: '/ˈpɒpkɔːrn/', partOfSpeech: 'n.', exampleEn: 'We ate popcorn at the cinema.', exampleCn: '我们在电影院吃了爆米花。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_corn', english: 'corn', chinese: '玉米', phonetic: '/kɔːrn/', partOfSpeech: 'n.', exampleEn: 'Corn is a popular food.', exampleCn: '玉米是一种受欢迎的食物。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_machine', english: 'machine', chinese: '机器', phonetic: '/məˈʃiːn/', partOfSpeech: 'n.', exampleEn: 'This machine makes popcorn.', exampleCn: '这台机器做爆米花。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_cover', english: 'cover', chinese: '覆盖；盖子', phonetic: '/ˈkʌvər/', partOfSpeech: 'v./n.', exampleEn: 'Cover the pot with a lid.', exampleCn: '用盖子把锅盖上。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_serve', english: 'serve', chinese: '接待；服务', phonetic: '/sɜːrv/', partOfSpeech: 'v.', exampleEn: 'Serve it to your friends.', exampleCn: '把它端给你的朋友们。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_temperature', english: 'temperature', chinese: '温度', phonetic: '/ˈtemprətʃər/', partOfSpeech: 'n.', exampleEn: 'Cook at a high temperature.', exampleCn: '用高温烹饪。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 3 },
+    { id: 'u8_fill', english: 'fill', chinese: '装满；填满', phonetic: '/fɪl/', partOfSpeech: 'v.', exampleEn: 'Fill the cup with water.', exampleCn: '把杯子装满水。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_mix', english: 'mix', chinese: '混合；搅拌', phonetic: '/mɪks/', partOfSpeech: 'v.', exampleEn: 'Mix the ingredients together.', exampleCn: '把原料混合在一起。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_piece', english: 'piece', chinese: '片；块；段', phonetic: '/piːs/', partOfSpeech: 'n.', exampleEn: 'Cut it into pieces.', exampleCn: '把它切成小块。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_traditional', english: 'traditional', chinese: '传统的', phonetic: '/trəˈdɪʃənl/', partOfSpeech: 'adj.', exampleEn: 'Dumplings are traditional Chinese food.', exampleCn: '饺子是传统的中国食物。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_traveler', english: 'traveler', chinese: '旅行者', phonetic: '/ˈtrævələr/', partOfSpeech: 'n.', exampleEn: 'The traveler visited many countries.', exampleCn: '那位旅行者去了很多国家。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_celebrate', english: 'celebrate', chinese: '庆祝', phonetic: '/ˈselɪbreɪt/', partOfSpeech: 'v.', exampleEn: 'We celebrate Spring Festival every year.', exampleCn: '我们每年庆祝春节。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_sandwich', english: 'sandwich', chinese: '三明治', phonetic: '/ˈsænwɪtʃ/', partOfSpeech: 'n.', exampleEn: 'I had a sandwich for lunch.', exampleCn: '我午餐吃了一个三明治。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 },
+    { id: 'u8_butter', english: 'butter', chinese: '黄油', phonetic: '/ˈbʌtər/', partOfSpeech: 'n.', exampleEn: 'Put some butter on the bread.', exampleCn: '在面包上涂些黄油。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 1 },
+    { id: 'u8_turkey', english: 'turkey', chinese: '火鸡', phonetic: '/ˈtɜːrki/', partOfSpeech: 'n.', exampleEn: 'Americans eat turkey on Thanksgiving.', exampleCn: '美国人在感恩节吃火鸡。', unit: 'unit8', unitName: 'How do you make a banana milk shake?', difficulty: 2 }
+  ],
+
+  // Unit 9: Can you come to my party?
+  unit9: [
+    { id: 'u9_prepare', english: 'prepare', chinese: '准备', phonetic: '/prɪˈpeər/', partOfSpeech: 'v.', exampleEn: 'I need to prepare for the exam.', exampleCn: '我需要准备考试。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_exam', english: 'exam', chinese: '考试', phonetic: '/ɪɡˈzæm/', partOfSpeech: 'n.', exampleEn: 'I have an English exam tomorrow.', exampleCn: '我明天有英语考试。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 1 },
+    { id: 'u9_available', english: 'available', chinese: '有空的；可获得的', phonetic: '/əˈveɪləbl/', partOfSpeech: 'adj.', exampleEn: 'Are you available this weekend?', exampleCn: '你这周末有空吗？', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 3 },
+    { id: 'u9_flu', english: 'flu', chinese: '流感', phonetic: '/fluː/', partOfSpeech: 'n.', exampleEn: 'She has the flu.', exampleCn: '她得了流感。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 1 },
+    { id: 'u9_until', english: 'until', chinese: '直到...为止', phonetic: '/ənˈtɪl/', partOfSpeech: 'prep./conj.', exampleEn: 'I studied until 10 pm.', exampleCn: '我学习到晚上10点。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_hang', english: 'hang', chinese: '悬挂；闲逛', phonetic: '/hæŋ/', partOfSpeech: 'v.', exampleEn: 'Can you hang out with me?', exampleCn: '你能和我一起出去玩吗？', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_catch', english: 'catch', chinese: '赶上；抓住', phonetic: '/kætʃ/', partOfSpeech: 'v.', exampleEn: 'I need to catch the bus.', exampleCn: '我需要赶公交车。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 1 },
+    { id: 'u9_invite', english: 'invite', chinese: '邀请', phonetic: '/ɪnˈvaɪt/', partOfSpeech: 'v.', exampleEn: 'I want to invite you to my party.', exampleCn: '我想邀请你来我的派对。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_accept', english: 'accept', chinese: '接受', phonetic: '/əkˈsept/', partOfSpeech: 'v.', exampleEn: 'She accepted my invitation.', exampleCn: '她接受了我的邀请。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_refuse', english: 'refuse', chinese: '拒绝', phonetic: '/rɪˈfjuːz/', partOfSpeech: 'v.', exampleEn: 'He refused to help me.', exampleCn: '他拒绝帮助我。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_reply', english: 'reply', chinese: '回复', phonetic: '/rɪˈplaɪ/', partOfSpeech: 'v./n.', exampleEn: 'Please reply to my message.', exampleCn: '请回复我的消息。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_forward', english: 'forward', chinese: '转发；向前', phonetic: '/ˈfɔːrwərd/', partOfSpeech: 'v./adv.', exampleEn: 'I look forward to your party.', exampleCn: '我期待你的派对。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_delete', english: 'delete', chinese: '删除', phonetic: '/dɪˈliːt/', partOfSpeech: 'v.', exampleEn: 'Delete the old messages.', exampleCn: '删除旧消息。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_print', english: 'print', chinese: '打印', phonetic: '/prɪnt/', partOfSpeech: 'v.', exampleEn: 'I need to print my homework.', exampleCn: '我需要打印我的作业。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 1 },
+    { id: 'u9_sad', english: 'sad', chinese: '悲伤的', phonetic: '/sæd/', partOfSpeech: 'adj.', exampleEn: 'I feel sad today.', exampleCn: '我今天感到难过。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 1 },
+    { id: 'u9_glad', english: 'glad', chinese: '高兴的', phonetic: '/ɡlæd/', partOfSpeech: 'adj.', exampleEn: 'I am glad you can come.', exampleCn: '我很高兴你能来。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 1 },
+    { id: 'u9_goodbye', english: 'goodbye', chinese: '再见', phonetic: '/ɡʊdˈbaɪ/', partOfSpeech: 'interj.', exampleEn: 'Goodbye! See you tomorrow.', exampleCn: '再见！明天见。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 1 },
+    { id: 'u9_concert', english: 'concert', chinese: '音乐会', phonetic: '/ˈkɒnsərt/', partOfSpeech: 'n.', exampleEn: 'I went to a concert last night.', exampleCn: '我昨晚去了音乐会。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_headache', english: 'headache', chinese: '头痛', phonetic: '/ˈhedeɪk/', partOfSpeech: 'n.', exampleEn: 'I have a headache.', exampleCn: '我头痛。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 1 },
+    { id: 'u9_daytime', english: 'daytime', chinese: '白天', phonetic: '/ˈdeɪtaɪm/', partOfSpeech: 'n.', exampleEn: 'I study in the daytime.', exampleCn: '我白天学习。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 1 },
+    { id: 'u9_surprised', english: 'surprised', chinese: '惊讶的', phonetic: '/sərˈpraɪzd/', partOfSpeech: 'adj.', exampleEn: 'I was surprised to see him.', exampleCn: '看到他我很惊讶。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_weekday', english: 'weekday', chinese: '工作日', phonetic: '/ˈwiːkdeɪ/', partOfSpeech: 'n.', exampleEn: 'I go to school on weekdays.', exampleCn: '我工作日去上学。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 1 },
+    { id: 'u9_event', english: 'event', chinese: '事件；大事', phonetic: '/ɪˈvent/', partOfSpeech: 'n.', exampleEn: 'The school event is next week.', exampleCn: '学校活动在下周。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_calendar', english: 'calendar', chinese: '日历', phonetic: '/ˈkælɪndər/', partOfSpeech: 'n.', exampleEn: 'Check the calendar for the date.', exampleCn: '查看日历确认日期。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 },
+    { id: 'u9_opening', english: 'opening', chinese: '开幕式；开始', phonetic: '/ˈoʊpənɪŋ/', partOfSpeech: 'n.', exampleEn: 'The opening of the new store.', exampleCn: '新店的开业典礼。', unit: 'unit9', unitName: 'Can you come to my party?', difficulty: 2 }
+  ],
+
+  // Unit 10: If you go to the party, you'll have a great time!
+  unit10: [
+    { id: 'u10_video', english: 'video', chinese: '视频', phonetic: '/ˈvɪdioʊ/', partOfSpeech: 'n.', exampleEn: 'Let us watch a video.', exampleCn: '我们来看个视频吧。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 1 },
+    { id: 'u10_organize', english: 'organize', chinese: '组织', phonetic: '/ˈɔːrɡənaɪz/', partOfSpeech: 'v.', exampleEn: 'Who will organize the party?', exampleCn: '谁来组织这个派对？', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_chocolate', english: 'chocolate', chinese: '巧克力', phonetic: '/ˈtʃɒklət/', partOfSpeech: 'n.', exampleEn: 'I love chocolate cake.', exampleCn: '我喜欢巧克力蛋糕。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 1 },
+    { id: 'u10_upset', english: 'upset', chinese: '不安的；沮丧的', phonetic: '/ʌpˈset/', partOfSpeech: 'adj.', exampleEn: 'She was upset about the news.', exampleCn: '她对这个消息感到不安。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_advice', english: 'advice', chinese: '建议', phonetic: '/ədˈvaɪs/', partOfSpeech: 'n.', exampleEn: 'Can you give me some advice?', exampleCn: '你能给我一些建议吗？', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_travel', english: 'travel', chinese: '旅行', phonetic: '/ˈtrævl/', partOfSpeech: 'v./n.', exampleEn: 'I want to travel around the world.', exampleCn: '我想环游世界。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 1 },
+    { id: 'u10_agent', english: 'agent', chinese: '代理人', phonetic: '/ˈeɪdʒənt/', partOfSpeech: 'n.', exampleEn: 'A travel agent can help you plan.', exampleCn: '旅行社能帮你做计划。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_expert', english: 'expert', chinese: '专家', phonetic: '/ˈekspɜːrt/', partOfSpeech: 'n.', exampleEn: 'He is an expert in science.', exampleCn: '他是科学专家。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_teenager', english: 'teenager', chinese: '青少年', phonetic: '/ˈtiːneɪdʒər/', partOfSpeech: 'n.', exampleEn: 'Many teenagers like pop music.', exampleCn: '很多青少年喜欢流行音乐。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_normal', english: 'normal', chinese: '正常的', phonetic: '/ˈnɔːrml/', partOfSpeech: 'adj.', exampleEn: 'It is normal to feel nervous.', exampleCn: '感到紧张是正常的。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 1 },
+    { id: 'u10_unless', english: 'unless', chinese: '除非', phonetic: '/ənˈles/', partOfSpeech: 'conj.', exampleEn: 'I will go unless it rains.', exampleCn: '除非下雨，否则我会去。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_certainly', english: 'certainly', chinese: '当然；肯定', phonetic: '/ˈsɜːrtnli/', partOfSpeech: 'adv.', exampleEn: 'I will certainly help you.', exampleCn: '我当然会帮你。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_wallet', english: 'wallet', chinese: '钱包', phonetic: '/ˈwɒlɪt/', partOfSpeech: 'n.', exampleEn: 'I lost my wallet yesterday.', exampleCn: '我昨天丢了钱包。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 1 },
+    { id: 'u10_mile', english: 'mile', chinese: '英里', phonetic: '/maɪl/', partOfSpeech: 'n.', exampleEn: 'The school is two miles away.', exampleCn: '学校在两英里外。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 1 },
+    { id: 'u10_angry', english: 'angry', chinese: '生气的', phonetic: '/ˈæŋɡri/', partOfSpeech: 'adj.', exampleEn: 'My mom was angry with me.', exampleCn: '我妈妈生我的气了。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 1 },
+    { id: 'u10_understanding', english: 'understanding', chinese: '善解人意的', phonetic: '/ˌʌndərˈstændɪŋ/', partOfSpeech: 'adj.', exampleEn: 'My teacher is very understanding.', exampleCn: '我的老师很善解人意。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_careless', english: 'careless', chinese: '粗心的', phonetic: '/ˈkerləs/', partOfSpeech: 'adj.', exampleEn: 'He made a careless mistake.', exampleCn: '他犯了一个粗心的错误。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_mistake', english: 'mistake', chinese: '错误', phonetic: '/mɪˈsteɪk/', partOfSpeech: 'n.', exampleEn: 'Everyone makes mistakes.', exampleCn: '每个人都会犯错。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 1 },
+    { id: 'u10_himself', english: 'himself', chinese: '他自己', phonetic: '/hɪmˈself/', partOfSpeech: 'pron.', exampleEn: 'He did it by himself.', exampleCn: '他自己做的。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 1 },
+    { id: 'u10_careful', english: 'careful', chinese: '小心的', phonetic: '/ˈkerfl/', partOfSpeech: 'adj.', exampleEn: 'Be careful when you cross the road.', exampleCn: '过马路时要小心。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 1 },
+    { id: 'u10_advise', english: 'advise', chinese: '劝告；建议', phonetic: '/ədˈvaɪz/', partOfSpeech: 'v.', exampleEn: 'I advise you to study harder.', exampleCn: '我建议你更努力学习。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_solve', english: 'solve', chinese: '解决', phonetic: '/sɒlv/', partOfSpeech: 'v.', exampleEn: 'Can you solve this problem?', exampleCn: '你能解决这个问题吗？', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_experience', english: 'experience', chinese: '经验；经历', phonetic: '/ɪkˈspɪriəns/', partOfSpeech: 'n.', exampleEn: 'It was a great experience.', exampleCn: '那是一次很棒的经历。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_halfway', english: 'halfway', chinese: '中途的', phonetic: '/ˌhæfˈweɪ/', partOfSpeech: 'adv.', exampleEn: 'We are halfway there.', exampleCn: '我们走了一半了。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_else', english: 'else', chinese: '其他的', phonetic: '/els/', partOfSpeech: 'adv.', exampleEn: 'What else do you need?', exampleCn: '你还需要什么？', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 1 },
+    { id: 'u10_trust', english: 'trust', chinese: '信任', phonetic: '/trʌst/', partOfSpeech: 'v./n.', exampleEn: 'You can trust me.', exampleCn: '你可以信任我。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_include', english: 'include', chinese: '包含；包括', phonetic: '/ɪnˈkluːd/', partOfSpeech: 'v.', exampleEn: 'The price includes breakfast.', exampleCn: '价格包含早餐。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 2 },
+    { id: 'u10_society', english: 'society', chinese: '社会', phonetic: '/səˈsaɪəti/', partOfSpeech: 'n.', exampleEn: 'We live in a modern society.', exampleCn: '我们生活在现代社会。', unit: 'unit10', unitName: "If you go to the party, you'll have a great time!", difficulty: 3 }
   ]
+
 };
 
 // ============================================================
@@ -2294,9 +2448,9 @@ export const unitInfo = [
     id: 'unit1',
     name: 'Unit 1',
     nameEn: 'Where did you go on vacation?',
-    description: '谈论假期活动，学习一般过去时和不定代词',
+    description: '谈论假期活动，学习一般过去时和不定代�?,
     wordCount: 34,
-    icon: '🏖️'
+    icon: '🏖�?
   },
   {
     id: 'unit2',
@@ -2310,7 +2464,7 @@ export const unitInfo = [
     id: 'unit3',
     name: 'Unit 3',
     nameEn: "I'm more outgoing than my sister.",
-    description: '比较人物特征，学习形容词比较级',
+    description: '比较人物特征，学习形容词比较�?,
     wordCount: 28,
     icon: '👫'
   },
@@ -2326,8 +2480,48 @@ export const unitInfo = [
     id: 'unit5',
     name: 'Unit 5',
     nameEn: 'Do you want to watch a game show?',
-    description: '谈论电视节目与电影，学习动词不定式',
+    description: '谈论电视节目与电影，学习动词不定�?,
     wordCount: 30,
     icon: '📺'
+  },
+  {
+    id: 'unit6',
+    name: 'Unit 6',
+    nameEn: "I'm going to study computer science.",
+    description: '谈论未来计划与职业，学习be going to',
+    wordCount: 27,
+    icon: '💻'
+  },
+  {
+    id: 'unit7',
+    name: 'Unit 7',
+    nameEn: 'Will people have robots?',
+    description: '预测未来生活，学习will的用�?,
+    wordCount: 28,
+    icon: '🤖'
+  },
+  {
+    id: 'unit8',
+    name: 'Unit 8',
+    nameEn: 'How do you make a banana milk shake?',
+    description: '描述制作过程，学习祈使句和可�?不可数名�?,
+    wordCount: 28,
+    icon: '🍌'
+  },
+  {
+    id: 'unit9',
+    name: 'Unit 9',
+    nameEn: 'Can you come to my party?',
+    description: '发出和回复邀请，学习情态动词can',
+    wordCount: 25,
+    icon: '🎉'
+  },
+  {
+    id: 'unit10',
+    name: 'Unit 10',
+    nameEn: "If you go to the party, you'll have a great time!",
+    description: '谈论后果与决定，学习if条件�?,
+    wordCount: 28,
+    icon: '🎊'
   }
 ];

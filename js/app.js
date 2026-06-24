@@ -15,6 +15,8 @@ import { TTS } from './tts.js';
 import { Pet } from './pet.js';
 import { SpellingPractice } from './spelling.js';
 import { MatchGame } from './match-game.js';
+import { MistakeBook } from './mistake-book.js';
+import { GrammarPractice } from './grammar.js';
 
 class App {
     constructor() {
@@ -270,6 +272,8 @@ class App {
         this.quizEngine = new QuizEngine(this.storage, this.ui, this.router);
         this.spellingPractice = new SpellingPractice(this.storage, this.ui, this.router);
         this.matchGame = new MatchGame(this.storage, this.ui, this.router);
+        this.mistakeBook = new MistakeBook(this.storage, this.ui, this.router);
+        this.grammarPractice = new GrammarPractice(this.storage, this.ui, this.router);
         this.profile = new Profile(this.storage, this.ui);
 
         // Listen for mission task completion events from modules
@@ -298,6 +302,16 @@ class App {
         });
 
         document.addEventListener('match-game-complete', () => {
+            this.updateTopBar();
+            this.pet.renderHomeCard();
+        });
+
+        document.addEventListener('mistake-train-complete', () => {
+            this.updateTopBar();
+            this.pet.renderHomeCard();
+        });
+
+        document.addEventListener('grammar-session-complete', () => {
             this.updateTopBar();
             this.pet.renderHomeCard();
         });
@@ -387,6 +401,11 @@ class App {
                 }
             });
         });
+
+        // Mistake book back button
+        document.getElementById('mistakeBookBack')?.addEventListener('click', () => {
+            this.router.navigate('main');
+        });
     }
 
     bindQuickActions() {
@@ -424,8 +443,11 @@ class App {
             }
         });
 
-        document.getElementById('quickListening')?.addEventListener('click', () => {
-            this.ui.showToast('🎧 听力模块即将上线，敬请期待！');
+        document.getElementById('quickMistakes')?.addEventListener('click', () => {
+            this.router.navigate('mistake-book');
+            if (this.mistakeBook) {
+                this.mistakeBook.renderBookView();
+            }
         });
 
         document.getElementById('quickQuiz')?.addEventListener('click', () => {
@@ -435,6 +457,13 @@ class App {
         document.getElementById('quickReview')?.addEventListener('click', () => {
             if (this.vocabLearner) {
                 this.vocabLearner.startReview();
+            }
+        });
+
+        document.getElementById('quickGrammar')?.addEventListener('click', () => {
+            this.router.navigate('grammar');
+            if (this.grammarPractice) {
+                this.grammarPractice.renderTab();
             }
         });
     }

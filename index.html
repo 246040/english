@@ -179,9 +179,13 @@
                                 <span class="quick-icon">🔄</span>
                                 <span class="quick-label">复习</span>
                             </button>
-                            <button class="quick-btn" id="quickListening">
-                                <span class="quick-icon">🎧</span>
-                                <span class="quick-label">听力</span>
+                            <button class="quick-btn" id="quickMistakes">
+                                <span class="quick-icon">📕</span>
+                                <span class="quick-label">错题本</span>
+                            </button>
+                            <button class="quick-btn" id="quickGrammar">
+                                <span class="quick-icon">📖</span>
+                                <span class="quick-label">语法</span>
                             </button>
                         </div>
                     </div>
@@ -387,6 +391,31 @@
         <div id="screen-match-game" class="screen">
             <div class="match-container" id="matchContainer">
                 <!-- Dynamically filled by MatchGame module -->
+            </div>
+        </div>
+
+        <!-- Mistake Book Screen -->
+        <div id="screen-mistake-book" class="screen">
+            <div class="mistake-book-header">
+                <button class="btn-back" id="mistakeBookBack">← 返回</button>
+                <h2>📕 错题本</h2>
+            </div>
+            <div class="mistake-book-body" id="mistakeBookContainer">
+                <!-- Dynamically filled by MistakeBook module -->
+            </div>
+        </div>
+
+        <!-- Mistake Training Full Screen -->
+        <div id="screen-mistake-train" class="screen">
+            <div class="mtrain-container" id="mistakeTrainContainer">
+                <!-- Dynamically filled by MistakeBook training -->
+            </div>
+        </div>
+
+        <!-- Grammar Practice Full Screen -->
+        <div id="screen-grammar" class="screen">
+            <div class="grammar-container" id="grammarContainer">
+                <!-- Dynamically filled by GrammarPractice module -->
             </div>
         </div>
 

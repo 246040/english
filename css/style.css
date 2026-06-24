@@ -2497,3 +2497,492 @@ body {
     gap: var(--space-sm);
 }
 
+/* ===================================
+   Mistake Book 📕
+   =================================== */
+
+.mistake-book-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-md);
+    background: var(--bg-primary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.mistake-book-header h2 {
+    margin: 0;
+    font-size: var(--font-lg);
+}
+
+.mistake-book-body {
+    flex: 1;
+    padding: var(--space-md);
+    overflow-y: auto;
+}
+
+.mistake-empty {
+    text-align: center;
+    padding: var(--space-xl);
+    color: var(--text-secondary);
+}
+
+.mistake-empty-emoji {
+    font-size: 64px;
+    margin-bottom: var(--space-md);
+}
+
+.mistake-stats {
+    display: flex;
+    gap: var(--space-lg);
+    margin-bottom: var(--space-md);
+}
+
+.mistake-stat {
+    font-size: var(--font-sm);
+    color: var(--text-secondary);
+}
+
+.mistake-stat strong {
+    color: var(--text-primary);
+}
+
+.mistake-train-btn {
+    width: 100%;
+    margin-bottom: var(--space-md);
+}
+
+.mistake-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.mistake-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    background: var(--bg-card);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.mistake-list-item:active {
+    background: var(--bg-secondary);
+}
+
+.mistake-word-info {
+    display: flex;
+    gap: var(--space-md);
+    align-items: baseline;
+}
+
+.mistake-en {
+    font-weight: 600;
+    font-size: var(--font-md);
+}
+
+.mistake-cn {
+    font-size: var(--font-sm);
+    color: var(--text-secondary);
+}
+
+.mistake-meta {
+    display: flex;
+    gap: var(--space-sm);
+    align-items: center;
+}
+
+.mistake-count {
+    font-size: var(--font-xs);
+    color: var(--accent-red);
+}
+
+.mistake-source {
+    font-size: 14px;
+}
+
+/* ===================================
+   Mistake Training 🎯
+   =================================== */
+
+.mtrain-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mtrain-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-md);
+    background: var(--bg-primary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.mtrain-progress {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-size: var(--font-sm);
+}
+
+.mtrain-score {
+    font-size: var(--font-sm);
+    color: var(--accent-orange);
+    font-weight: 600;
+}
+
+.mtrain-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-xl) var(--space-lg);
+    gap: var(--space-lg);
+}
+
+.mtrain-prompt {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.mtrain-english {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.mtrain-audio {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.mtrain-hint {
+    font-size: var(--font-sm);
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.mtrain-options {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.mtrain-option {
+    width: 100%;
+    padding: 14px 16px;
+    background: var(--bg-secondary);
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-family: var(--font-family);
+    font-size: var(--font-md);
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.mtrain-option:active {
+    transform: scale(0.98);
+}
+
+.mtrain-letter {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-card);
+    border-radius: 50%;
+    font-size: var(--font-sm);
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.mtrain-option.correct {
+    background: rgba(52, 211, 153, 0.15);
+    border-color: var(--accent-green);
+}
+
+.mtrain-option.correct .mtrain-letter {
+    background: var(--accent-green);
+    color: white;
+}
+
+.mtrain-option.wrong {
+    background: rgba(251, 113, 133, 0.15);
+    border-color: var(--accent-red);
+}
+
+.mtrain-option.wrong .mtrain-letter {
+    background: var(--accent-red);
+    color: white;
+}
+
+/* Spelling in training */
+.mtrain-spelling-prompt {
+    text-align: center;
+}
+
+.mtrain-chinese {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--space-sm);
+}
+
+.mtrain-pos {
+    font-size: var(--font-sm);
+    color: var(--text-secondary);
+    margin-bottom: var(--space-sm);
+}
+
+.mtrain-spell-input {
+    display: flex;
+    width: 100%;
+    max-width: 320px;
+    gap: var(--space-sm);
+}
+
+.mtrain-spell-input input {
+    flex: 1;
+    padding: 14px 16px;
+    border-radius: var(--radius-md);
+    border: 2px solid var(--border-color);
+    background: var(--bg-card);
+    color: var(--text-primary);
+    font-size: var(--font-lg);
+    font-family: var(--font-family);
+    text-align: center;
+    letter-spacing: 2px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.mtrain-spell-input input:focus {
+    border-color: var(--primary);
+}
+
+.mtrain-spell-input input.correct {
+    border-color: var(--accent-green);
+    background: rgba(52, 211, 153, 0.1);
+}
+
+.mtrain-spell-input input.wrong {
+    border-color: var(--accent-red);
+    background: rgba(251, 113, 133, 0.1);
+    animation: shake 0.4s;
+}
+
+.mtrain-feedback {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+/* Results */
+.mtrain-result {
+    text-align: center;
+    padding: var(--space-xl) var(--space-lg);
+    overflow-y: auto;
+}
+
+.mtrain-result-emoji {
+    font-size: 64px;
+    margin-bottom: var(--space-md);
+}
+
+.mtrain-result-stats {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-xl);
+    margin: var(--space-lg) 0;
+}
+
+.mtrain-result-stat {
+    text-align: center;
+}
+
+.mtrain-stat-value {
+    font-size: var(--font-xl);
+    font-weight: 700;
+    color: var(--primary-light);
+    display: block;
+}
+
+.mtrain-stat-label {
+    font-size: var(--font-xs);
+    color: var(--text-secondary);
+}
+
+.mtrain-result-words {
+    text-align: left;
+    margin: var(--space-lg) 0;
+}
+
+.mtrain-result-words h3 {
+    margin-bottom: var(--space-sm);
+}
+
+.mtrain-word-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: 8px 12px;
+    border-radius: var(--radius-sm);
+    margin-bottom: 4px;
+}
+
+.mtrain-word-row.correct {
+    background: rgba(52, 211, 153, 0.08);
+}
+
+.mtrain-word-row.wrong {
+    background: rgba(251, 113, 133, 0.08);
+}
+
+.mtrain-word-en {
+    font-weight: 600;
+    min-width: 80px;
+}
+
+.mtrain-word-cn {
+    font-size: var(--font-sm);
+    color: var(--text-secondary);
+}
+
+.mtrain-result-actions {
+    display: flex;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+}
+
+.mtrain-result-actions .btn {
+    flex: 1;
+}
+
+/* ===================================
+   Grammar Practice 📖
+   =================================== */
+
+.grammar-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.grammar-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-md);
+    background: var(--bg-primary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.grammar-topics {
+    padding: var(--space-md);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-md);
+}
+
+.grammar-topic-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: var(--space-md);
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+}
+
+.grammar-topic-card:active {
+    transform: scale(0.96);
+}
+
+.grammar-topic-icon {
+    font-size: 32px;
+    margin-bottom: var(--space-sm);
+}
+
+.grammar-topic-name {
+    font-size: var(--font-md);
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.grammar-topic-desc {
+    font-size: var(--font-xs);
+    color: var(--text-secondary);
+    margin-bottom: var(--space-sm);
+}
+
+.grammar-topic-meta {
+    font-size: var(--font-xs);
+    color: var(--primary-light);
+}
+
+.grammar-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-lg);
+    gap: var(--space-lg);
+}
+
+.grammar-question {
+    width: 100%;
+    max-width: 400px;
+}
+
+.grammar-prompt {
+    font-size: var(--font-lg);
+    font-weight: 600;
+    margin-bottom: var(--space-sm);
+    line-height: 1.6;
+}
+
+.grammar-prompt-cn {
+    font-size: var(--font-sm);
+    color: var(--text-secondary);
+    margin-bottom: var(--space-lg);
+}
+
+.grammar-explanation {
+    margin-top: var(--space-md);
+    padding: var(--space-md);
+    background: rgba(168, 85, 247, 0.08);
+    border-left: 3px solid var(--primary);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-sm);
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.grammar-tip {
+    margin-top: var(--space-sm);
+    padding: var(--space-sm) var(--space-md);
+    background: rgba(251, 191, 36, 0.08);
+    border-left: 3px solid var(--accent-orange);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-xs);
+    color: var(--accent-orange-light);
+}

@@ -336,6 +336,10 @@ export class VocabLearner {
             this.ui.showToast('快记住了，继续加油 💪');
         } else {
             this.ui.showToast('没关系，多看几次就会了 😊');
+            // Dispatch for MistakeBook auto-collection
+            document.dispatchEvent(new CustomEvent('vocab-forgot', {
+                detail: { word }
+            }));
         }
 
         // Record today as a study day

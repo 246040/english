@@ -309,6 +309,11 @@ export class SpellingPractice {
                 mastered: false,
             });
 
+            // Dispatch for MistakeBook auto-collection
+            document.dispatchEvent(new CustomEvent('spelling-mistake', {
+                detail: { word }
+            }));
+
             feedback.innerHTML = `
                 <div class="feedback-wrong">
                     正确答案: <span class="correct-word">${word.english}</span>
