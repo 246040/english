@@ -153,9 +153,13 @@ export class QuizEngine {
         const body = document.getElementById('quizSessionBody');
         if (!body) return;
 
-        // Build question UI
+        // Build question UI with optional audio button
+        const hasAudio = q.word && q.word.english;
         let html = `<div class="quiz-question">
-                        <div class="quiz-prompt">${q.prompt}</div>
+                        <div class="quiz-prompt">
+                            ${q.prompt}
+                            ${hasAudio ? `<button class="btn-audio quiz-audio" id="quizSpeak" title="播放发音">🔊</button>` : ''}
+                        </div>
                         <div class="quiz-options">`;
 
         q.options.forEach((opt, i) => {
@@ -178,6 +182,20 @@ export class QuizEngine {
                 }
             });
         });
+
+        // Bind audio button and auto-speak for en2cn questions
+        if (hasAudio) {
+            const speakBtn = document.getElementById('quizSpeak');
+            if (speakBtn) {
+                speakBtn.addEventListener('click', () => {
+                    if (window.tts) window.tts.speakWord(q.word.english);
+                });
+            }
+            // Auto-speak for "看英选中" type
+            if (q.prompt.includes(q.word.english) && window.tts) {
+                setTimeout(() => window.tts.speakWord(q.word.english), 300);
+            }
+        }
 
         this._updateSessionProgress();
     }

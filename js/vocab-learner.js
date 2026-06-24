@@ -54,6 +54,18 @@ export class VocabLearner {
         if (btnForgot) btnForgot.addEventListener('click', () => this.handleResponse(0));
         if (btnFuzzy) btnFuzzy.addEventListener('click', () => this.handleResponse(3));
         if (btnKnown) btnKnown.addEventListener('click', () => this.handleResponse(5));
+
+        // Audio button - speak word again
+        const btnAudio = document.getElementById('btnPlayWord');
+        if (btnAudio) {
+            btnAudio.addEventListener('click', (e) => {
+                e.stopPropagation(); // Don't flip card
+                const word = this.currentWords[this.currentIndex];
+                if (word && window.tts) {
+                    window.tts.speakWordTwice(word.english);
+                }
+            });
+        }
     }
 
     /* ─────────────────────────── Tab Rendering ───────────────────────────── */
@@ -271,6 +283,11 @@ export class VocabLearner {
 
         // Progress indicator
         this._updateProgress();
+
+        // Auto-speak the word
+        if (window.tts) {
+            setTimeout(() => window.tts.speakWord(word.english), 300);
+        }
     }
 
     /**
@@ -282,6 +299,12 @@ export class VocabLearner {
 
         const inner = document.getElementById('flashcardInner');
         if (inner) inner.classList.add('flipped');
+
+        // Speak the example sentence when flipped
+        const word = this.currentWords[this.currentIndex];
+        if (word && word.exampleEn && window.tts) {
+            setTimeout(() => window.tts.speakSentence(word.exampleEn), 400);
+        }
 
         this._setResponseButtonsVisible(true);
     }

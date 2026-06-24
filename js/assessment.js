@@ -89,6 +89,15 @@ export class Assessment {
                 this.handleAnswer(parseInt(btn.dataset.index), q);
             });
         });
+
+        // Auto-speak English word if it's a vocab question
+        if ((q.type === 'vocab-en2cn') && window.tts) {
+            // Extract the English word from the question (inside quotes)
+            const match = q.question.match(/"([^"]+)"/);
+            if (match) {
+                setTimeout(() => window.tts.speakWord(match[1]), 300);
+            }
+        }
     }
 
     handleAnswer(selectedIndex, question) {

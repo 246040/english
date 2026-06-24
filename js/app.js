@@ -11,12 +11,15 @@ import { QuizEngine } from './quiz-engine.js';
 import { DailyMission } from './daily-mission.js';
 import { Profile } from './profile.js';
 import { UI } from './ui.js';
+import { TTS } from './tts.js';
 
 class App {
     constructor() {
         this.storage = new Storage();
         this.router = new Router();
         this.ui = new UI();
+        this.tts = new TTS();
+        window.tts = this.tts; // Make accessible to all modules
         this.init();
     }
 
