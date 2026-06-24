@@ -149,6 +149,10 @@
             <div class="tab-content">
                 <!-- Tab: Home / Daily Mission -->
                 <div id="tab-home" class="tab-pane active">
+                    <!-- Pet Card -->
+                    <div class="pet-home-card" id="petHomeCard">
+                        <!-- Dynamically filled by Pet module -->
+                    </div>
                     <div class="daily-mission-card" id="dailyMissionCard">
                         <!-- Dynamically filled -->
                     </div>
@@ -159,17 +163,25 @@
                                 <span class="quick-icon">🔤</span>
                                 <span class="quick-label">背单词</span>
                             </button>
-                            <button class="quick-btn" id="quickListening">
-                                <span class="quick-icon">🎧</span>
-                                <span class="quick-label">练听力</span>
+                            <button class="quick-btn" id="quickSpelling">
+                                <span class="quick-icon">✍️</span>
+                                <span class="quick-label">拼写</span>
+                            </button>
+                            <button class="quick-btn" id="quickMatch">
+                                <span class="quick-icon">🎮</span>
+                                <span class="quick-label">配对</span>
                             </button>
                             <button class="quick-btn" id="quickQuiz">
                                 <span class="quick-icon">📝</span>
-                                <span class="quick-label">小测验</span>
+                                <span class="quick-label">测验</span>
                             </button>
                             <button class="quick-btn" id="quickReview">
                                 <span class="quick-icon">🔄</span>
                                 <span class="quick-label">复习</span>
+                            </button>
+                            <button class="quick-btn" id="quickListening">
+                                <span class="quick-icon">🎧</span>
+                                <span class="quick-label">听力</span>
                             </button>
                         </div>
                     </div>
@@ -368,6 +380,20 @@
                     <button class="btn btn-secondary" id="btnReviewMistakes">📖 复习错题</button>
                     <button class="btn btn-primary" id="btnBackHome">🏠 返回首页</button>
                 </div>
+            </div>
+        </div>
+
+        <!-- Spelling Practice Full Screen -->
+        <div id="screen-spelling" class="screen">
+            <div class="spelling-container" id="spellingContainer">
+                <!-- Dynamically filled by SpellingPractice module -->
+            </div>
+        </div>
+
+        <!-- Match Game Full Screen -->
+        <div id="screen-match-game" class="screen">
+            <div class="match-container" id="matchContainer">
+                <!-- Dynamically filled by MatchGame module -->
             </div>
         </div>
 

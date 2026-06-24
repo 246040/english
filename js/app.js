@@ -12,6 +12,9 @@ import { DailyMission } from './daily-mission.js';
 import { Profile } from './profile.js';
 import { UI } from './ui.js';
 import { TTS } from './tts.js';
+import { Pet } from './pet.js';
+import { SpellingPractice } from './spelling.js';
+import { MatchGame } from './match-game.js';
 
 class App {
     constructor() {
@@ -257,27 +260,46 @@ class App {
         this.updateTopBar();
 
         // Initialize modules
+        this.pet = new Pet(this.storage, this.ui);
+        this.pet.renderHomeCard();
+
         this.dailyMission = new DailyMission(this.storage, this.ui, this.router);
         this.dailyMission.render();
 
         this.vocabLearner = new VocabLearner(this.storage, this.ui, this.router);
         this.quizEngine = new QuizEngine(this.storage, this.ui, this.router);
+        this.spellingPractice = new SpellingPractice(this.storage, this.ui, this.router);
+        this.matchGame = new MatchGame(this.storage, this.ui, this.router);
         this.profile = new Profile(this.storage, this.ui);
 
         // Listen for mission task completion events from modules
         document.addEventListener('vocab-session-complete', () => {
             this.dailyMission.completeMissionTask('learn-words');
             this.updateTopBar();
+            this.pet.renderHomeCard();
         });
 
         document.addEventListener('quiz-session-complete', () => {
             this.dailyMission.completeMissionTask('take-quiz');
             this.updateTopBar();
+            this.pet.renderHomeCard();
         });
 
         document.addEventListener('review-session-complete', () => {
             this.dailyMission.completeMissionTask('review-words');
             this.updateTopBar();
+            this.pet.renderHomeCard();
+        });
+
+        document.addEventListener('spelling-session-complete', () => {
+            this.dailyMission.completeMissionTask('learn-words');
+            this.updateTopBar();
+            this.pet.renderHomeCard();
+        });
+
+        document.addEventListener('match-game-complete', () => {
+            this.updateTopBar();
+            this.pet.renderHomeCard();
         });
 
         // Handle daily mission "review" task click
@@ -369,8 +391,37 @@ class App {
 
     bindQuickActions() {
         document.getElementById('quickVocab')?.addEventListener('click', () => {
-            // Switch to vocab tab
             document.querySelector('.nav-btn[data-tab="vocab"]').click();
+        });
+
+        document.getElementById('quickSpelling')?.addEventListener('click', () => {
+            // Start spelling for first available unit with studied words
+            const vocabData = this.storage.getVocabData();
+            const wordStates = this.storage.getWordStates();
+            const unitIds = Object.keys(vocabData);
+            const unitWithWords = unitIds.find(uid => {
+                return vocabData[uid].some(w => wordStates[w.id]);
+            });
+            if (unitWithWords && this.spellingPractice) {
+                this.spellingPractice.start(unitWithWords);
+            } else {
+                this.ui.showToast('先去背几个单词再来拼写吧 📚');
+            }
+        });
+
+        document.getElementById('quickMatch')?.addEventListener('click', () => {
+            const vocabData = this.storage.getVocabData();
+            const wordStates = this.storage.getWordStates();
+            const unitIds = Object.keys(vocabData);
+            const unitWithWords = unitIds.find(uid => {
+                const studied = vocabData[uid].filter(w => wordStates[w.id]);
+                return studied.length >= 6;
+            });
+            if (unitWithWords && this.matchGame) {
+                this.matchGame.start(unitWithWords);
+            } else {
+                this.ui.showToast('需要至少学过6个单词才能玩配对游戏 🎮');
+            }
         });
 
         document.getElementById('quickListening')?.addEventListener('click', () => {
